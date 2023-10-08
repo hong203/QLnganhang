@@ -26,5 +26,10 @@ namespace quanlynganhang_btn_
         {
 
         }
+
+        private void frmRutiten_Load(object sender, EventArgs e)
+        {
+            // Hello
+        }
     }
 }

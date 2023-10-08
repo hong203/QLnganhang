@@ -470,19 +470,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\FPT SHOP\\.nuget\\packages\\": {}
+    "C:\\Users\\tqlinh0928\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\congngheDotNet\\repos\\Congnghedotnet\\quanlynganhang(btn)\\quanlynganhang(btn)\\quanlynganhang(btn).csproj",
+      "projectUniqueName": "D:\\Tài Liệu\\.NET\\QLnganhang\\quanlynganhang(btn)\\quanlynganhang(btn).csproj",
       "projectName": "quanlynganhang(btn)",
-      "projectPath": "C:\\congngheDotNet\\repos\\Congnghedotnet\\quanlynganhang(btn)\\quanlynganhang(btn)\\quanlynganhang(btn).csproj",
-      "packagesPath": "C:\\Users\\FPT SHOP\\.nuget\\packages\\",
-      "outputPath": "C:\\congngheDotNet\\repos\\Congnghedotnet\\quanlynganhang(btn)\\quanlynganhang(btn)\\obj\\",
+      "projectPath": "D:\\Tài Liệu\\.NET\\QLnganhang\\quanlynganhang(btn)\\quanlynganhang(btn).csproj",
+      "packagesPath": "C:\\Users\\tqlinh0928\\.nuget\\packages\\",
+      "outputPath": "D:\\Tài Liệu\\.NET\\QLnganhang\\quanlynganhang(btn)\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\FPT SHOP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\tqlinh0928\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -532,7 +532,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -264,6 +264,7 @@
             Controls.Add(groupBox1);
             Name = "frmRutiten";
             Text = "frmRutiten";
+            Load += frmRutiten_Load;
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
             groupBox2.ResumeLayout(false);
