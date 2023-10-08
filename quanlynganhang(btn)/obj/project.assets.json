@@ -470,19 +470,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\FPT SHOP\\.nuget\\packages\\": {}
+    "C:\\Users\\Dell\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Downloads\\QLnganhang\\quanlynganhang(btn)\\quanlynganhang(btn).csproj",
+      "projectUniqueName": "D:\\QLnganhang\\quanlynganhang(btn)\\quanlynganhang(btn).csproj",
       "projectName": "quanlynganhang(btn)",
-      "projectPath": "D:\\Downloads\\QLnganhang\\quanlynganhang(btn)\\quanlynganhang(btn).csproj",
-      "packagesPath": "C:\\Users\\FPT SHOP\\.nuget\\packages\\",
-      "outputPath": "D:\\Downloads\\QLnganhang\\quanlynganhang(btn)\\obj\\",
+      "projectPath": "D:\\QLnganhang\\quanlynganhang(btn)\\quanlynganhang(btn).csproj",
+      "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
+      "outputPath": "D:\\QLnganhang\\quanlynganhang(btn)\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\FPT SHOP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

@@ -71,83 +71,95 @@
             groupBox3.Controls.Add(label6);
             groupBox3.Controls.Add(label5);
             groupBox3.Controls.Add(label4);
-            groupBox3.Location = new Point(62, 281);
+            groupBox3.Location = new Point(78, 351);
+            groupBox3.Margin = new Padding(4, 4, 4, 4);
             groupBox3.Name = "groupBox3";
-            groupBox3.Size = new Size(360, 221);
+            groupBox3.Padding = new Padding(4, 4, 4, 4);
+            groupBox3.Size = new Size(450, 276);
             groupBox3.TabIndex = 6;
             groupBox3.TabStop = false;
             groupBox3.Text = "Tài khoản";
             // 
             // txtCCCD
             // 
-            txtCCCD.Location = new Point(144, 174);
+            txtCCCD.Location = new Point(180, 218);
+            txtCCCD.Margin = new Padding(4, 4, 4, 4);
             txtCCCD.Name = "txtCCCD";
-            txtCCCD.Size = new Size(157, 27);
+            txtCCCD.Size = new Size(195, 31);
             txtCCCD.TabIndex = 1;
             // 
             // txtemail
             // 
-            txtemail.Location = new Point(144, 132);
+            txtemail.Location = new Point(180, 165);
+            txtemail.Margin = new Padding(4, 4, 4, 4);
             txtemail.Name = "txtemail";
-            txtemail.Size = new Size(157, 27);
+            txtemail.Size = new Size(195, 31);
             txtemail.TabIndex = 1;
             // 
             // txtsotaikhoan2
             // 
-            txtsotaikhoan2.Location = new Point(144, 90);
+            txtsotaikhoan2.Location = new Point(180, 112);
+            txtsotaikhoan2.Margin = new Padding(4, 4, 4, 4);
             txtsotaikhoan2.Name = "txtsotaikhoan2";
-            txtsotaikhoan2.Size = new Size(157, 27);
+            txtsotaikhoan2.Size = new Size(195, 31);
             txtsotaikhoan2.TabIndex = 1;
             // 
             // txttentaikhoan2
             // 
-            txttentaikhoan2.Location = new Point(144, 49);
+            txttentaikhoan2.Location = new Point(180, 61);
+            txttentaikhoan2.Margin = new Padding(4, 4, 4, 4);
             txttentaikhoan2.Name = "txttentaikhoan2";
-            txttentaikhoan2.Size = new Size(157, 27);
+            txttentaikhoan2.Size = new Size(195, 31);
             txttentaikhoan2.TabIndex = 1;
             // 
             // label7
             // 
             label7.AutoSize = true;
-            label7.Location = new Point(39, 177);
+            label7.Location = new Point(49, 221);
+            label7.Margin = new Padding(4, 0, 4, 0);
             label7.Name = "label7";
-            label7.Size = new Size(47, 20);
+            label7.Size = new Size(58, 25);
             label7.TabIndex = 0;
             label7.Text = "CCCD";
             // 
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(39, 135);
+            label6.Location = new Point(49, 169);
+            label6.Margin = new Padding(4, 0, 4, 0);
             label6.Name = "label6";
-            label6.Size = new Size(46, 20);
+            label6.Size = new Size(54, 25);
             label6.TabIndex = 0;
             label6.Text = "Email";
             // 
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(39, 90);
+            label5.Location = new Point(49, 112);
+            label5.Margin = new Padding(4, 0, 4, 0);
             label5.Name = "label5";
-            label5.Size = new Size(91, 20);
+            label5.Size = new Size(111, 25);
             label5.TabIndex = 0;
             label5.Text = "Số tài khoản";
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(39, 48);
+            label4.Location = new Point(49, 60);
+            label4.Margin = new Padding(4, 0, 4, 0);
             label4.Name = "label4";
-            label4.Size = new Size(97, 20);
+            label4.Size = new Size(116, 25);
             label4.TabIndex = 0;
             label4.Text = "Tên tài khoản";
             // 
             // groupBox2
             // 
             groupBox2.Controls.Add(dataGridView1);
-            groupBox2.Location = new Point(466, 43);
+            groupBox2.Location = new Point(582, 54);
+            groupBox2.Margin = new Padding(4, 4, 4, 4);
             groupBox2.Name = "groupBox2";
-            groupBox2.Size = new Size(602, 211);
+            groupBox2.Padding = new Padding(4, 4, 4, 4);
+            groupBox2.Size = new Size(752, 264);
             groupBox2.TabIndex = 5;
             groupBox2.TabStop = false;
             groupBox2.Text = "Danh sách tài khoản";
@@ -155,11 +167,12 @@
             // dataGridView1
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(6, 26);
+            dataGridView1.Location = new Point(8, 32);
+            dataGridView1.Margin = new Padding(4, 4, 4, 4);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 51;
             dataGridView1.RowTemplate.Height = 29;
-            dataGridView1.Size = new Size(590, 179);
+            dataGridView1.Size = new Size(738, 224);
             dataGridView1.TabIndex = 0;
             dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             // 
@@ -170,61 +183,70 @@
             groupBox1.Controls.Add(txtsotaikhoan1);
             groupBox1.Controls.Add(label3);
             groupBox1.Controls.Add(label2);
-            groupBox1.Location = new Point(62, 43);
+            groupBox1.Location = new Point(78, 54);
+            groupBox1.Margin = new Padding(4, 4, 4, 4);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(360, 211);
+            groupBox1.Padding = new Padding(4, 4, 4, 4);
+            groupBox1.Size = new Size(450, 264);
             groupBox1.TabIndex = 4;
             groupBox1.TabStop = false;
             groupBox1.Text = "Tìm kiếm tài khoản";
             // 
             // btntimkiem
             // 
-            btntimkiem.Location = new Point(175, 156);
+            btntimkiem.Location = new Point(219, 195);
+            btntimkiem.Margin = new Padding(4, 4, 4, 4);
             btntimkiem.Name = "btntimkiem";
-            btntimkiem.Size = new Size(94, 29);
+            btntimkiem.Size = new Size(118, 36);
             btntimkiem.TabIndex = 2;
             btntimkiem.Text = "Tìm kiếm";
             btntimkiem.UseVisualStyleBackColor = true;
             // 
             // txttentaikhoan1
             // 
-            txttentaikhoan1.Location = new Point(136, 96);
+            txttentaikhoan1.Location = new Point(170, 120);
+            txttentaikhoan1.Margin = new Padding(4, 4, 4, 4);
             txttentaikhoan1.Name = "txttentaikhoan1";
-            txttentaikhoan1.Size = new Size(185, 27);
+            txttentaikhoan1.Size = new Size(230, 31);
             txttentaikhoan1.TabIndex = 1;
             // 
             // txtsotaikhoan1
             // 
-            txtsotaikhoan1.Location = new Point(136, 36);
+            txtsotaikhoan1.Location = new Point(170, 45);
+            txtsotaikhoan1.Margin = new Padding(4, 4, 4, 4);
             txtsotaikhoan1.Name = "txtsotaikhoan1";
-            txtsotaikhoan1.Size = new Size(185, 27);
+            txtsotaikhoan1.Size = new Size(230, 31);
             txtsotaikhoan1.TabIndex = 1;
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(20, 99);
+            label3.Location = new Point(25, 124);
+            label3.Margin = new Padding(4, 0, 4, 0);
             label3.Name = "label3";
-            label3.Size = new Size(97, 20);
+            label3.Size = new Size(116, 25);
             label3.TabIndex = 0;
             label3.Text = "Tên tài khoản";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(20, 39);
+            label2.Location = new Point(25, 49);
+            label2.Margin = new Padding(4, 0, 4, 0);
             label2.Name = "label2";
-            label2.Size = new Size(91, 20);
+            label2.Size = new Size(111, 25);
             label2.TabIndex = 0;
             label2.Text = "Số tài khoản";
+            label2.Click += label2_Click;
             // 
             // label1
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label1.Location = new Point(434, 9);
+            label1.Location = new Point(542, 11);
+            label1.Margin = new Padding(4, 0, 4, 0);
             label1.Name = "label1";
-            label1.Size = new Size(125, 28);
+            label1.Size = new Size(150, 32);
             label1.TabIndex = 7;
             label1.Text = "Chuyển tiền";
             // 
@@ -237,81 +259,91 @@
             groupBox4.Controls.Add(label10);
             groupBox4.Controls.Add(label9);
             groupBox4.Controls.Add(label8);
-            groupBox4.Location = new Point(472, 281);
+            groupBox4.Location = new Point(590, 351);
+            groupBox4.Margin = new Padding(4, 4, 4, 4);
             groupBox4.Name = "groupBox4";
-            groupBox4.Size = new Size(590, 221);
+            groupBox4.Padding = new Padding(4, 4, 4, 4);
+            groupBox4.Size = new Size(738, 276);
             groupBox4.TabIndex = 8;
             groupBox4.TabStop = false;
             groupBox4.Text = "Chuyển tiền đến tài khoản";
             // 
             // btnchuyentien
             // 
-            btnchuyentien.Location = new Point(462, 133);
+            btnchuyentien.Location = new Point(578, 166);
+            btnchuyentien.Margin = new Padding(4, 4, 4, 4);
             btnchuyentien.Name = "btnchuyentien";
-            btnchuyentien.Size = new Size(103, 64);
+            btnchuyentien.Size = new Size(129, 80);
             btnchuyentien.TabIndex = 3;
             btnchuyentien.Text = "Chuyển tiền";
             btnchuyentien.UseVisualStyleBackColor = true;
             // 
             // txtdentaikhoan
             // 
-            txtdentaikhoan.Location = new Point(263, 148);
+            txtdentaikhoan.Location = new Point(329, 185);
+            txtdentaikhoan.Margin = new Padding(4, 4, 4, 4);
             txtdentaikhoan.Name = "txtdentaikhoan";
-            txtdentaikhoan.Size = new Size(164, 27);
+            txtdentaikhoan.Size = new Size(204, 31);
             txtdentaikhoan.TabIndex = 2;
             // 
             // txttienmuonchuyen
             // 
-            txttienmuonchuyen.Location = new Point(263, 94);
+            txttienmuonchuyen.Location = new Point(329, 118);
+            txttienmuonchuyen.Margin = new Padding(4, 4, 4, 4);
             txttienmuonchuyen.Name = "txttienmuonchuyen";
-            txttienmuonchuyen.Size = new Size(164, 27);
+            txttienmuonchuyen.Size = new Size(204, 31);
             txttienmuonchuyen.TabIndex = 2;
             // 
             // txtsoduhientai
             // 
-            txtsoduhientai.Location = new Point(263, 46);
+            txtsoduhientai.Location = new Point(329, 58);
+            txtsoduhientai.Margin = new Padding(4, 4, 4, 4);
             txtsoduhientai.Name = "txtsoduhientai";
-            txtsoduhientai.Size = new Size(164, 27);
+            txtsoduhientai.Size = new Size(204, 31);
             txtsoduhientai.TabIndex = 2;
             // 
             // label10
             // 
             label10.AutoSize = true;
-            label10.Location = new Point(82, 48);
+            label10.Location = new Point(102, 60);
+            label10.Margin = new Padding(4, 0, 4, 0);
             label10.Name = "label10";
-            label10.Size = new Size(101, 20);
+            label10.Size = new Size(122, 25);
             label10.TabIndex = 1;
             label10.Text = "Số dư hiện tại";
             // 
             // label9
             // 
             label9.AutoSize = true;
-            label9.Location = new Point(82, 151);
+            label9.Location = new Point(102, 189);
+            label9.Margin = new Padding(4, 0, 4, 0);
             label9.Name = "label9";
-            label9.Size = new Size(101, 20);
+            label9.Size = new Size(122, 25);
             label9.TabIndex = 0;
             label9.Text = "Đến tài khoản";
             // 
             // label8
             // 
             label8.AutoSize = true;
-            label8.Location = new Point(82, 97);
+            label8.Location = new Point(102, 121);
+            label8.Margin = new Padding(4, 0, 4, 0);
             label8.Name = "label8";
-            label8.Size = new Size(129, 20);
+            label8.Size = new Size(157, 25);
             label8.TabIndex = 0;
             label8.Text = "Tiền muốn chuyển";
             label8.Click += label8_Click;
             // 
             // frmChuyentien
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1092, 515);
+            ClientSize = new Size(1365, 644);
             Controls.Add(groupBox4);
             Controls.Add(label1);
             Controls.Add(groupBox3);
             Controls.Add(groupBox2);
             Controls.Add(groupBox1);
+            Margin = new Padding(4, 4, 4, 4);
             Name = "frmChuyentien";
             Text = "frmChuyentien";
             Load += frmChuyentien_Load;

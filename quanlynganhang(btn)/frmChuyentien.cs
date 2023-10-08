@@ -39,7 +39,7 @@ namespace quanlynganhang_btn_
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            //1
+            //2
         }
 
         private void frmChuyentien_Load(object sender, EventArgs e)
@@ -54,6 +54,11 @@ namespace quanlynganhang_btn_
             {
                 MessageBox.Show("Loi ket noi CSDL toi Project");
             }
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
