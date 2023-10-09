@@ -131,5 +131,5 @@ namespace quanlynganhang_btn_
             txtsotaikhoan1.Text = "";
         }
 
-    } 
+    }
 }

@@ -140,7 +140,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Calibri", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label1.Location = new Point(407, 9);
+            label1.Location = new Point(460, 9);
             label1.Name = "label1";
             label1.Size = new Size(212, 24);
             label1.TabIndex = 4;

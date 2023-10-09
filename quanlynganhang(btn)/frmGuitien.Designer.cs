@@ -50,9 +50,9 @@
             label5 = new Label();
             label4 = new Label();
             groupBox4 = new GroupBox();
-            textsotiengui = new NumericUpDown();
             btnguitien = new Button();
             label9 = new Label();
+            textsotiengui = new NumericUpDown();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
@@ -272,13 +272,6 @@
             groupBox4.TabStop = false;
             groupBox4.Text = "Gửi tiền";
             // 
-            // textsotiengui
-            // 
-            textsotiengui.Location = new Point(213, 75);
-            textsotiengui.Name = "textsotiengui";
-            textsotiengui.Size = new Size(150, 27);
-            textsotiengui.TabIndex = 8;
-            // 
             // btnguitien
             // 
             btnguitien.Location = new Point(257, 190);
@@ -298,6 +291,14 @@
             label9.TabIndex = 5;
             label9.Text = "Số tiền muốn gửi";
             label9.Click += label9_Click;
+            // 
+            // textsotiengui
+            // 
+            textsotiengui.Location = new Point(218, 73);
+            textsotiengui.Maximum = new decimal(new int[] { 5000000, 0, 0, 0 });
+            textsotiengui.Name = "textsotiengui";
+            textsotiengui.Size = new Size(150, 27);
+            textsotiengui.TabIndex = 7;
             // 
             // frmGuitien
             // 
@@ -350,7 +351,7 @@
         private GroupBox groupBox4;
         private Button btnguitien;
         private Label label9;
-        private NumericUpDown textsotiengui;
         private Button btnxoa;
+        private NumericUpDown textsotiengui;
     }
 }
