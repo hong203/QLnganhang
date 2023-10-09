@@ -35,11 +35,12 @@
             btnktsodu = new Button();
             label1 = new Label();
             btnxoataikhoan = new Button();
+            btncapnhatthongtin = new Button();
             SuspendLayout();
             // 
             // btntaotaikhoan
             // 
-            btntaotaikhoan.Location = new Point(245, 134);
+            btntaotaikhoan.Location = new Point(58, 126);
             btntaotaikhoan.Name = "btntaotaikhoan";
             btntaotaikhoan.Size = new Size(123, 46);
             btntaotaikhoan.TabIndex = 0;
@@ -49,7 +50,7 @@
             // 
             // btnguitien
             // 
-            btnguitien.Location = new Point(245, 207);
+            btnguitien.Location = new Point(395, 208);
             btnguitien.Name = "btnguitien";
             btnguitien.Size = new Size(123, 44);
             btnguitien.TabIndex = 0;
@@ -59,7 +60,7 @@
             // 
             // btnchuyenkhoan
             // 
-            btnchuyenkhoan.Location = new Point(245, 285);
+            btnchuyenkhoan.Location = new Point(395, 127);
             btnchuyenkhoan.Name = "btnchuyenkhoan";
             btnchuyenkhoan.Size = new Size(123, 45);
             btnchuyenkhoan.TabIndex = 0;
@@ -69,9 +70,9 @@
             // 
             // btnruttien
             // 
-            btnruttien.Location = new Point(468, 134);
+            btnruttien.Location = new Point(58, 206);
             btnruttien.Name = "btnruttien";
-            btnruttien.Size = new Size(119, 46);
+            btnruttien.Size = new Size(123, 46);
             btnruttien.TabIndex = 0;
             btnruttien.Text = "Rút tiền";
             btnruttien.UseVisualStyleBackColor = true;
@@ -79,7 +80,7 @@
             // 
             // btnktsodu
             // 
-            btnktsodu.Location = new Point(468, 207);
+            btnktsodu.Location = new Point(233, 208);
             btnktsodu.Name = "btnktsodu";
             btnktsodu.Size = new Size(119, 44);
             btnktsodu.TabIndex = 0;
@@ -91,7 +92,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Calibri", 19.8000011F, FontStyle.Bold, GraphicsUnit.Point);
-            label1.Location = new Point(256, 40);
+            label1.Location = new Point(233, 51);
             label1.Name = "label1";
             label1.Size = new Size(331, 41);
             label1.TabIndex = 1;
@@ -99,7 +100,7 @@
             // 
             // btnxoataikhoan
             // 
-            btnxoataikhoan.Location = new Point(468, 285);
+            btnxoataikhoan.Location = new Point(233, 127);
             btnxoataikhoan.Name = "btnxoataikhoan";
             btnxoataikhoan.Size = new Size(119, 45);
             btnxoataikhoan.TabIndex = 2;
@@ -107,11 +108,22 @@
             btnxoataikhoan.UseVisualStyleBackColor = true;
             btnxoataikhoan.Click += btnxoataikhoan_Click;
             // 
+            // btncapnhatthongtin
+            // 
+            btncapnhatthongtin.Location = new Point(556, 127);
+            btncapnhatthongtin.Name = "btncapnhatthongtin";
+            btncapnhatthongtin.Size = new Size(146, 45);
+            btncapnhatthongtin.TabIndex = 2;
+            btncapnhatthongtin.Text = "Cập nhật thông tin";
+            btncapnhatthongtin.UseVisualStyleBackColor = true;
+            btncapnhatthongtin.Click += btnxoataikhoan_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(824, 343);
+            Controls.Add(btncapnhatthongtin);
             Controls.Add(btnxoataikhoan);
             Controls.Add(label1);
             Controls.Add(btnktsodu);
@@ -121,6 +133,7 @@
             Controls.Add(btntaotaikhoan);
             Name = "Form1";
             Text = "Hệ thống quản lý ngân hàng";
+            Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();
         }
@@ -134,5 +147,6 @@
         private Button btnktsodu;
         private Label label1;
         private Button btnxoataikhoan;
+        private Button btncapnhatthongtin;
     }
 }

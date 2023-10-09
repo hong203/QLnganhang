@@ -39,7 +39,7 @@ namespace quanlynganhang_btn_
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            //1
+           
         }
 
         private void frmChuyentien_Load(object sender, EventArgs e)

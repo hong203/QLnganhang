@@ -1,14 +1,17 @@
 using QUANLYNGANHANG;
+using System.Data;
+using System.Data.SqlClient;
 
 namespace quanlynganhang_btn_
 {
     public partial class Form1 : Form
     {
+
+
         public Form1()
         {
             InitializeComponent();
         }
-
         private void frmChuyentien_Click(object sender, EventArgs e)
         {
             frmChuyentien ct = new frmChuyentien();
@@ -19,6 +22,7 @@ namespace quanlynganhang_btn_
         {
             frmTaotk tk = new frmTaotk();
             tk.ShowDialog();
+
         }
 
         private void btnguitien_Click(object sender, EventArgs e)
@@ -41,8 +45,13 @@ namespace quanlynganhang_btn_
 
         private void btnxoataikhoan_Click(object sender, EventArgs e)
         {
-            frmxoataikhoan xtk= new frmxoataikhoan();   
+            frmxoataikhoan xtk = new frmxoataikhoan();
             xtk.ShowDialog();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

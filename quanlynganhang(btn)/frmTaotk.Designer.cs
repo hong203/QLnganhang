@@ -46,10 +46,12 @@
             txtCCCD = new TextBox();
             txtsodienthoai = new TextBox();
             txtquoctich = new TextBox();
-            cbnam = new CheckBox();
-            cbnu = new CheckBox();
             dtpngaysinh = new DateTimePicker();
-            button1 = new Button();
+            btntaotaikhoan = new Button();
+            btnxoa = new Button();
+            dataGridView1 = new DataGridView();
+            cbnam = new CheckBox();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
             // label1
@@ -201,26 +203,6 @@
             txtquoctich.Size = new Size(260, 27);
             txtquoctich.TabIndex = 2;
             // 
-            // cbnam
-            // 
-            cbnam.AutoSize = true;
-            cbnam.Location = new Point(191, 308);
-            cbnam.Name = "cbnam";
-            cbnam.Size = new Size(63, 24);
-            cbnam.TabIndex = 3;
-            cbnam.Text = "Nam";
-            cbnam.UseVisualStyleBackColor = true;
-            // 
-            // cbnu
-            // 
-            cbnu.AutoSize = true;
-            cbnu.Location = new Point(265, 308);
-            cbnu.Name = "cbnu";
-            cbnu.Size = new Size(51, 24);
-            cbnu.TabIndex = 4;
-            cbnu.Text = "Nữ";
-            cbnu.UseVisualStyleBackColor = true;
-            // 
             // dtpngaysinh
             // 
             dtpngaysinh.Location = new Point(549, 206);
@@ -228,24 +210,55 @@
             dtpngaysinh.Size = new Size(260, 27);
             dtpngaysinh.TabIndex = 5;
             // 
-            // button1
+            // btntaotaikhoan
             // 
-            button1.Location = new Point(363, 362);
-            button1.Name = "button1";
-            button1.Size = new Size(120, 45);
-            button1.TabIndex = 6;
-            button1.Text = "Tạo tài khoản";
-            button1.UseVisualStyleBackColor = true;
+            btntaotaikhoan.Location = new Point(549, 308);
+            btntaotaikhoan.Name = "btntaotaikhoan";
+            btntaotaikhoan.Size = new Size(120, 45);
+            btntaotaikhoan.TabIndex = 6;
+            btntaotaikhoan.Text = "Tạo tài khoản";
+            btntaotaikhoan.UseVisualStyleBackColor = true;
+            btntaotaikhoan.Click += btntaotaikhoan_Click;
+            // 
+            // btnxoa
+            // 
+            btnxoa.Location = new Point(689, 308);
+            btnxoa.Name = "btnxoa";
+            btnxoa.Size = new Size(120, 45);
+            btnxoa.TabIndex = 6;
+            btnxoa.Text = "Xóa";
+            btnxoa.UseVisualStyleBackColor = true;
+            // 
+            // dataGridView1
+            // 
+            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.Location = new Point(12, 371);
+            dataGridView1.Name = "dataGridView1";
+            dataGridView1.RowHeadersWidth = 51;
+            dataGridView1.RowTemplate.Height = 29;
+            dataGridView1.Size = new Size(859, 266);
+            dataGridView1.TabIndex = 8;
+            // 
+            // cbnam
+            // 
+            cbnam.AutoSize = true;
+            cbnam.Location = new Point(191, 307);
+            cbnam.Name = "cbnam";
+            cbnam.Size = new Size(63, 24);
+            cbnam.TabIndex = 9;
+            cbnam.Text = "Nam";
+            cbnam.UseVisualStyleBackColor = true;
             // 
             // frmTaotk
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(839, 450);
-            Controls.Add(button1);
-            Controls.Add(dtpngaysinh);
-            Controls.Add(cbnu);
+            ClientSize = new Size(883, 647);
             Controls.Add(cbnam);
+            Controls.Add(dataGridView1);
+            Controls.Add(btnxoa);
+            Controls.Add(btntaotaikhoan);
+            Controls.Add(dtpngaysinh);
             Controls.Add(txtquoctich);
             Controls.Add(txtdiachieamil);
             Controls.Add(txtmatkhau);
@@ -266,6 +279,8 @@
             Controls.Add(label1);
             Name = "frmTaotk";
             Text = "frmTaotk";
+            Load += frmTaotk_Load;
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -296,9 +311,10 @@
         private TextBox txtquoctich;
         private TextBox textBox12;
         private TextBox textBox13;
-        private CheckBox cbnam;
-        private CheckBox cbnu;
         private DateTimePicker dtpngaysinh;
-        private Button button1;
+        private Button btntaotaikhoan;
+        private Button btnxoa;
+        private DataGridView dataGridView1;
+        private CheckBox cbnam;
     }
 }

@@ -61,7 +61,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label1.Location = new Point(385, 43);
+            label1.Location = new Point(386, 9);
             label1.Name = "label1";
             label1.Size = new Size(223, 28);
             label1.TabIndex = 0;
@@ -75,21 +75,22 @@
             groupBox1.Controls.Add(txtsotaikhoan1);
             groupBox1.Controls.Add(label3);
             groupBox1.Controls.Add(label2);
-            groupBox1.Location = new Point(23, 85);
+            groupBox1.Location = new Point(23, 52);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(360, 211);
+            groupBox1.Size = new Size(360, 228);
             groupBox1.TabIndex = 1;
             groupBox1.TabStop = false;
             groupBox1.Text = "Tìm kiếm tài khoản";
             // 
             // btntimkiem
             // 
-            btntimkiem.Location = new Point(175, 156);
+            btntimkiem.Location = new Point(212, 164);
             btntimkiem.Name = "btntimkiem";
-            btntimkiem.Size = new Size(94, 29);
+            btntimkiem.Size = new Size(109, 44);
             btntimkiem.TabIndex = 2;
             btntimkiem.Text = "Tìm kiếm";
             btntimkiem.UseVisualStyleBackColor = true;
+            btntimkiem.Click += btntimkiem_Click;
             // 
             // txttentaikhoan1
             // 
@@ -128,9 +129,9 @@
             // groupBox2
             // 
             groupBox2.Controls.Add(dataGridView1);
-            groupBox2.Location = new Point(427, 85);
+            groupBox2.Location = new Point(427, 52);
             groupBox2.Name = "groupBox2";
-            groupBox2.Size = new Size(602, 211);
+            groupBox2.Size = new Size(619, 234);
             groupBox2.TabIndex = 2;
             groupBox2.TabStop = false;
             groupBox2.Text = "Danh sách tài khoản";
@@ -142,7 +143,7 @@
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 51;
             dataGridView1.RowTemplate.Height = 29;
-            dataGridView1.Size = new Size(590, 179);
+            dataGridView1.Size = new Size(607, 202);
             dataGridView1.TabIndex = 0;
             // 
             // groupBox3
@@ -160,7 +161,7 @@
             groupBox3.Controls.Add(label6);
             groupBox3.Controls.Add(label5);
             groupBox3.Controls.Add(label4);
-            groupBox3.Location = new Point(23, 323);
+            groupBox3.Location = new Point(23, 292);
             groupBox3.Name = "groupBox3";
             groupBox3.Size = new Size(1006, 221);
             groupBox3.TabIndex = 3;
