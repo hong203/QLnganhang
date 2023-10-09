@@ -38,22 +38,24 @@
             dataGridView1 = new DataGridView();
             label1 = new Label();
             groupBox3 = new GroupBox();
-            txtemail = new TextBox();
-            txtsotaikhoan2 = new TextBox();
+            txtSoTienDaRut = new NumericUpDown();
+            txtsodu = new TextBox();
             txttentaikhoan2 = new TextBox();
             label6 = new Label();
             label5 = new Label();
             label4 = new Label();
             groupBox4 = new GroupBox();
+            textSoTienRut = new NumericUpDown();
             btnruttien = new Button();
             label8 = new Label();
-            textBox1 = new TextBox();
             label7 = new Label();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             groupBox3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)txtSoTienDaRut).BeginInit();
             groupBox4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)textSoTienRut).BeginInit();
             SuspendLayout();
             // 
             // groupBox1
@@ -63,40 +65,43 @@
             groupBox1.Controls.Add(txtsotaikhoan1);
             groupBox1.Controls.Add(label3);
             groupBox1.Controls.Add(label2);
+            groupBox1.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
             groupBox1.Location = new Point(22, 47);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(481, 211);
+            groupBox1.Size = new Size(605, 211);
             groupBox1.TabIndex = 2;
             groupBox1.TabStop = false;
             groupBox1.Text = "Tìm kiếm tài khoản";
+            groupBox1.Enter += groupBox1_Enter;
             // 
             // btntimkiem
             // 
-            btntimkiem.Location = new Point(175, 156);
+            btntimkiem.Location = new Point(213, 153);
             btntimkiem.Name = "btntimkiem";
-            btntimkiem.Size = new Size(104, 42);
+            btntimkiem.Size = new Size(155, 42);
             btntimkiem.TabIndex = 2;
             btntimkiem.Text = "Tìm kiếm";
             btntimkiem.UseVisualStyleBackColor = true;
+            btntimkiem.Click += btntimkiem_Click;
             // 
             // txttentaikhoan1
             // 
-            txttentaikhoan1.Location = new Point(136, 96);
+            txttentaikhoan1.Location = new Point(213, 96);
             txttentaikhoan1.Name = "txttentaikhoan1";
-            txttentaikhoan1.Size = new Size(185, 27);
+            txttentaikhoan1.Size = new Size(272, 27);
             txttentaikhoan1.TabIndex = 1;
             // 
             // txtsotaikhoan1
             // 
-            txtsotaikhoan1.Location = new Point(136, 36);
+            txtsotaikhoan1.Location = new Point(213, 32);
             txtsotaikhoan1.Name = "txtsotaikhoan1";
-            txtsotaikhoan1.Size = new Size(185, 27);
+            txtsotaikhoan1.Size = new Size(272, 27);
             txtsotaikhoan1.TabIndex = 1;
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(20, 99);
+            label3.Location = new Point(38, 96);
             label3.Name = "label3";
             label3.Size = new Size(97, 20);
             label3.TabIndex = 0;
@@ -105,7 +110,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(20, 39);
+            label2.Location = new Point(38, 35);
             label2.Name = "label2";
             label2.Size = new Size(91, 20);
             label2.TabIndex = 0;
@@ -116,7 +121,7 @@
             groupBox2.Controls.Add(dataGridView1);
             groupBox2.Location = new Point(22, 272);
             groupBox2.Name = "groupBox2";
-            groupBox2.Size = new Size(481, 221);
+            groupBox2.Size = new Size(605, 221);
             groupBox2.TabIndex = 3;
             groupBox2.TabStop = false;
             groupBox2.Text = "Danh sách tài khoản";
@@ -124,11 +129,11 @@
             // dataGridView1
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(6, 26);
+            dataGridView1.Location = new Point(12, 26);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 51;
             dataGridView1.RowTemplate.Height = 29;
-            dataGridView1.Size = new Size(469, 189);
+            dataGridView1.Size = new Size(570, 189);
             dataGridView1.TabIndex = 0;
             // 
             // label1
@@ -143,38 +148,38 @@
             // 
             // groupBox3
             // 
-            groupBox3.Controls.Add(txtemail);
-            groupBox3.Controls.Add(txtsotaikhoan2);
+            groupBox3.Controls.Add(txtSoTienDaRut);
+            groupBox3.Controls.Add(txtsodu);
             groupBox3.Controls.Add(txttentaikhoan2);
             groupBox3.Controls.Add(label6);
             groupBox3.Controls.Add(label5);
             groupBox3.Controls.Add(label4);
-            groupBox3.Location = new Point(531, 272);
+            groupBox3.Location = new Point(650, 272);
             groupBox3.Name = "groupBox3";
-            groupBox3.Size = new Size(487, 221);
+            groupBox3.Size = new Size(498, 221);
             groupBox3.TabIndex = 7;
             groupBox3.TabStop = false;
             groupBox3.Text = "Thông tin ghi chú";
             // 
-            // txtemail
+            // txtSoTienDaRut
             // 
-            txtemail.Location = new Point(144, 132);
-            txtemail.Name = "txtemail";
-            txtemail.Size = new Size(203, 27);
-            txtemail.TabIndex = 1;
+            txtSoTienDaRut.Location = new Point(175, 135);
+            txtSoTienDaRut.Name = "txtSoTienDaRut";
+            txtSoTienDaRut.Size = new Size(247, 27);
+            txtSoTienDaRut.TabIndex = 4;
             // 
-            // txtsotaikhoan2
+            // txtsodu
             // 
-            txtsotaikhoan2.Location = new Point(144, 90);
-            txtsotaikhoan2.Name = "txtsotaikhoan2";
-            txtsotaikhoan2.Size = new Size(203, 27);
-            txtsotaikhoan2.TabIndex = 1;
+            txtsodu.Location = new Point(175, 90);
+            txtsodu.Name = "txtsodu";
+            txtsodu.Size = new Size(247, 27);
+            txtsodu.TabIndex = 1;
             // 
             // txttentaikhoan2
             // 
-            txttentaikhoan2.Location = new Point(144, 49);
+            txttentaikhoan2.Location = new Point(175, 48);
             txttentaikhoan2.Name = "txttentaikhoan2";
-            txttentaikhoan2.Size = new Size(203, 27);
+            txttentaikhoan2.Size = new Size(247, 27);
             txttentaikhoan2.TabIndex = 1;
             // 
             // label6
@@ -206,43 +211,43 @@
             // 
             // groupBox4
             // 
+            groupBox4.Controls.Add(textSoTienRut);
             groupBox4.Controls.Add(btnruttien);
             groupBox4.Controls.Add(label8);
-            groupBox4.Controls.Add(textBox1);
             groupBox4.Controls.Add(label7);
-            groupBox4.Location = new Point(531, 47);
+            groupBox4.Location = new Point(650, 47);
             groupBox4.Name = "groupBox4";
-            groupBox4.Size = new Size(487, 211);
+            groupBox4.Size = new Size(498, 211);
             groupBox4.TabIndex = 8;
             groupBox4.TabStop = false;
             groupBox4.Text = "Rút tiền";
             groupBox4.Enter += groupBox4_Enter;
             // 
+            // textSoTienRut
+            // 
+            textSoTienRut.Location = new Point(186, 39);
+            textSoTienRut.Name = "textSoTienRut";
+            textSoTienRut.Size = new Size(150, 27);
+            textSoTienRut.TabIndex = 4;
+            // 
             // btnruttien
             // 
             btnruttien.Location = new Point(175, 156);
             btnruttien.Name = "btnruttien";
-            btnruttien.Size = new Size(111, 37);
+            btnruttien.Size = new Size(150, 37);
             btnruttien.TabIndex = 3;
             btnruttien.Text = "Rút tiền";
             btnruttien.UseVisualStyleBackColor = true;
+            btnruttien.Click += btnruttien_Click;
             // 
             // label8
             // 
             label8.AutoSize = true;
-            label8.Location = new Point(39, 53);
+            label8.Location = new Point(39, 39);
             label8.Name = "label8";
             label8.Size = new Size(104, 20);
             label8.TabIndex = 2;
             label8.Text = "Số tiền cần rút";
-            // 
-            // textBox1
-            // 
-            textBox1.Location = new Point(175, 53);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(172, 27);
-            textBox1.TabIndex = 1;
-            textBox1.TextChanged += textBox1_TextChanged;
             // 
             // label7
             // 
@@ -256,7 +261,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1030, 532);
+            ClientSize = new Size(1175, 518);
             Controls.Add(groupBox4);
             Controls.Add(groupBox3);
             Controls.Add(label1);
@@ -271,8 +276,10 @@
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             groupBox3.ResumeLayout(false);
             groupBox3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)txtSoTienDaRut).EndInit();
             groupBox4.ResumeLayout(false);
             groupBox4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)textSoTienRut).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -289,16 +296,16 @@
         private DataGridView dataGridView1;
         private Label label1;
         private GroupBox groupBox3;
-        private TextBox txtemail;
-        private TextBox txtsotaikhoan2;
+        private TextBox txtsodu;
         private TextBox txttentaikhoan2;
         private Label label6;
         private Label label5;
         private Label label4;
         private GroupBox groupBox4;
-        private TextBox textBox1;
         private Label label7;
         private Label label8;
         private Button btnruttien;
+        private NumericUpDown textSoTienRut;
+        private NumericUpDown txtSoTienDaRut;
     }
 }

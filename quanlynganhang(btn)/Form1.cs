@@ -53,5 +53,11 @@ namespace quanlynganhang_btn_
         {
 
         }
+
+        private void btncapnhatthongtin_Click(object sender, EventArgs e)
+        {
+            frmCapnhat cp=new frmCapnhat();
+            cp.ShowDialog();
+        }
     }
 }

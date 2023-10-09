@@ -57,7 +57,7 @@ namespace QUANLYNGANHANG
                 MessageBox.Show("Loi ket noi CSDL toi Project");
             }
         }
-        internal string tentaikhoan, sotaikhoan, matkhau, diachiemail, socccd, sodienthoai, ngaysinh, quoctich;
+        internal string tentaikhoan, sotaikhoan, matkhau, diachiemail, socccd, sodienthoai, ngaysinh, quoctich, sodu;
         internal bool gioitinh;
         private void btntaotaikhoan_Click(object sender, EventArgs e)
         {
@@ -69,6 +69,7 @@ namespace QUANLYNGANHANG
             sodienthoai = txtsodienthoai.Text;
             ngaysinh = dtpngaysinh.Value.ToString("yyyy/MM/dd");
             quoctich = txtquoctich.Text;
+            sodu = txtsodu.Text;
 
             if (cbnam.Checked == true)
             {
@@ -78,8 +79,8 @@ namespace QUANLYNGANHANG
             {
                 gioitinh = false;
             }
-            string sql = "insert into dbo.qlnh (Tentaikhoan, Sotaikhoan, Matkhau, Diachiemail,Gioitinh, Socccd, Sodienthoai, Ngaysinh, Quoctich) VALUES  ('" +
-            tentaikhoan + " ','" + sotaikhoan + "','" + matkhau + "','" + diachiemail + "','" + gioitinh.ToString() + "','" + socccd + "','" + sodienthoai + "','" + ngaysinh + "','" + quoctich + "')";
+            string sql = "insert into dbo.qlnh (Tentaikhoan, Sotaikhoan, Matkhau, Diachiemail,Gioitinh, Socccd, Sodienthoai, Ngaysinh, Quoctich,Sodu) VALUES  ('" +
+            tentaikhoan + " ','" + sotaikhoan + "','" + matkhau + "','" + diachiemail + "','" + gioitinh.ToString() + "','" + socccd + "','" + sodienthoai + "','" + ngaysinh + "','" + quoctich + "','" + sodu + "')";
             SqlDataAdapter adapter = new SqlDataAdapter();
             adapter.SelectCommand = new SqlCommand(sql, connect);
             adapter.SelectCommand.ExecuteNonQuery();
@@ -95,6 +96,7 @@ namespace QUANLYNGANHANG
             txtdiachieamil.Text = "";
             txtCCCD.Text = "";
             txtsodienthoai.Text = "";
+            txtsodu.Text = "";
             DateTime dateTime = new DateTime();
             dateTime = Convert.ToDateTime("01/01/1900");
             dtpngaysinh.Value = dateTime;

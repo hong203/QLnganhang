@@ -51,6 +51,8 @@
             btnxoa = new Button();
             dataGridView1 = new DataGridView();
             cbnam = new CheckBox();
+            label14 = new Label();
+            txtsodu = new TextBox();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
@@ -212,7 +214,7 @@
             // 
             // btntaotaikhoan
             // 
-            btntaotaikhoan.Location = new Point(549, 308);
+            btntaotaikhoan.Location = new Point(549, 364);
             btntaotaikhoan.Name = "btntaotaikhoan";
             btntaotaikhoan.Size = new Size(120, 45);
             btntaotaikhoan.TabIndex = 6;
@@ -222,7 +224,7 @@
             // 
             // btnxoa
             // 
-            btnxoa.Location = new Point(689, 308);
+            btnxoa.Location = new Point(689, 364);
             btnxoa.Name = "btnxoa";
             btnxoa.Size = new Size(120, 45);
             btnxoa.TabIndex = 6;
@@ -232,11 +234,11 @@
             // dataGridView1
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(12, 371);
+            dataGridView1.Location = new Point(12, 415);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 51;
             dataGridView1.RowTemplate.Height = 29;
-            dataGridView1.Size = new Size(859, 266);
+            dataGridView1.Size = new Size(859, 222);
             dataGridView1.TabIndex = 8;
             // 
             // cbnam
@@ -249,11 +251,29 @@
             cbnam.Text = "Nam";
             cbnam.UseVisualStyleBackColor = true;
             // 
+            // label14
+            // 
+            label14.AutoSize = true;
+            label14.Location = new Point(440, 311);
+            label14.Name = "label14";
+            label14.Size = new Size(48, 20);
+            label14.TabIndex = 10;
+            label14.Text = "Số dư";
+            // 
+            // txtsodu
+            // 
+            txtsodu.Location = new Point(549, 310);
+            txtsodu.Name = "txtsodu";
+            txtsodu.Size = new Size(260, 27);
+            txtsodu.TabIndex = 11;
+            // 
             // frmTaotk
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(883, 647);
+            Controls.Add(txtsodu);
+            Controls.Add(label14);
             Controls.Add(cbnam);
             Controls.Add(dataGridView1);
             Controls.Add(btnxoa);
@@ -316,5 +336,7 @@
         private Button btnxoa;
         private DataGridView dataGridView1;
         private CheckBox cbnam;
+        private Label label14;
+        private TextBox txtsodu;
     }
 }

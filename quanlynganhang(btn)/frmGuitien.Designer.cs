@@ -30,6 +30,7 @@
         {
             label1 = new Label();
             groupBox1 = new GroupBox();
+            btnxoa = new Button();
             btntimkiem = new Button();
             txttentaikhoan1 = new TextBox();
             txtsotaikhoan1 = new TextBox();
@@ -38,23 +39,26 @@
             groupBox2 = new GroupBox();
             dataGridView1 = new DataGridView();
             groupBox3 = new GroupBox();
-            btnguitien = new Button();
-            label9 = new Label();
             label8 = new Label();
             txtCCCD = new TextBox();
             txtemail = new TextBox();
-            txtsotienmuongui = new TextBox();
             txtsotaikhoan2 = new TextBox();
-            txtsodutaikhoan = new TextBox();
+            txtsodu = new TextBox();
             txttentaikhoan2 = new TextBox();
             label7 = new Label();
             label6 = new Label();
             label5 = new Label();
             label4 = new Label();
+            groupBox4 = new GroupBox();
+            textsotiengui = new NumericUpDown();
+            btnguitien = new Button();
+            label9 = new Label();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             groupBox3.SuspendLayout();
+            groupBox4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)textsotiengui).BeginInit();
             SuspendLayout();
             // 
             // label1
@@ -70,6 +74,7 @@
             // 
             // groupBox1
             // 
+            groupBox1.Controls.Add(btnxoa);
             groupBox1.Controls.Add(btntimkiem);
             groupBox1.Controls.Add(txttentaikhoan1);
             groupBox1.Controls.Add(txtsotaikhoan1);
@@ -82,9 +87,19 @@
             groupBox1.TabStop = false;
             groupBox1.Text = "Tìm kiếm tài khoản";
             // 
+            // btnxoa
+            // 
+            btnxoa.Location = new Point(239, 164);
+            btnxoa.Name = "btnxoa";
+            btnxoa.Size = new Size(106, 44);
+            btnxoa.TabIndex = 3;
+            btnxoa.Text = "Xóa";
+            btnxoa.UseVisualStyleBackColor = true;
+            btnxoa.Click += btnxoa_Click;
+            // 
             // btntimkiem
             // 
-            btntimkiem.Location = new Point(212, 164);
+            btntimkiem.Location = new Point(98, 164);
             btntimkiem.Name = "btntimkiem";
             btntimkiem.Size = new Size(109, 44);
             btntimkiem.TabIndex = 2;
@@ -148,14 +163,11 @@
             // 
             // groupBox3
             // 
-            groupBox3.Controls.Add(btnguitien);
-            groupBox3.Controls.Add(label9);
             groupBox3.Controls.Add(label8);
             groupBox3.Controls.Add(txtCCCD);
             groupBox3.Controls.Add(txtemail);
-            groupBox3.Controls.Add(txtsotienmuongui);
             groupBox3.Controls.Add(txtsotaikhoan2);
-            groupBox3.Controls.Add(txtsodutaikhoan);
+            groupBox3.Controls.Add(txtsodu);
             groupBox3.Controls.Add(txttentaikhoan2);
             groupBox3.Controls.Add(label7);
             groupBox3.Controls.Add(label6);
@@ -163,33 +175,15 @@
             groupBox3.Controls.Add(label4);
             groupBox3.Location = new Point(23, 292);
             groupBox3.Name = "groupBox3";
-            groupBox3.Size = new Size(1006, 221);
+            groupBox3.Size = new Size(433, 259);
             groupBox3.TabIndex = 3;
             groupBox3.TabStop = false;
             groupBox3.Text = "Tài khoản";
             // 
-            // btnguitien
-            // 
-            btnguitien.Location = new Point(857, 154);
-            btnguitien.Name = "btnguitien";
-            btnguitien.Size = new Size(122, 47);
-            btnguitien.TabIndex = 3;
-            btnguitien.Text = "Gửi tiền";
-            btnguitien.UseVisualStyleBackColor = true;
-            // 
-            // label9
-            // 
-            label9.AutoSize = true;
-            label9.Location = new Point(473, 97);
-            label9.Name = "label9";
-            label9.Size = new Size(123, 20);
-            label9.TabIndex = 2;
-            label9.Text = "Số tiền muốn gửi";
-            // 
             // label8
             // 
             label8.AutoSize = true;
-            label8.Location = new Point(473, 44);
+            label8.Location = new Point(39, 217);
             label8.Name = "label8";
             label8.Size = new Size(113, 20);
             label8.TabIndex = 2;
@@ -197,42 +191,35 @@
             // 
             // txtCCCD
             // 
-            txtCCCD.Location = new Point(144, 174);
+            txtCCCD.Location = new Point(156, 174);
             txtCCCD.Name = "txtCCCD";
             txtCCCD.Size = new Size(177, 27);
             txtCCCD.TabIndex = 1;
             // 
             // txtemail
             // 
-            txtemail.Location = new Point(144, 132);
+            txtemail.Location = new Point(156, 132);
             txtemail.Name = "txtemail";
             txtemail.Size = new Size(177, 27);
             txtemail.TabIndex = 1;
             // 
-            // txtsotienmuongui
-            // 
-            txtsotienmuongui.Location = new Point(606, 94);
-            txtsotienmuongui.Name = "txtsotienmuongui";
-            txtsotienmuongui.Size = new Size(176, 27);
-            txtsotienmuongui.TabIndex = 1;
-            // 
             // txtsotaikhoan2
             // 
-            txtsotaikhoan2.Location = new Point(144, 90);
+            txtsotaikhoan2.Location = new Point(156, 90);
             txtsotaikhoan2.Name = "txtsotaikhoan2";
             txtsotaikhoan2.Size = new Size(177, 27);
             txtsotaikhoan2.TabIndex = 1;
             // 
-            // txtsodutaikhoan
+            // txtsodu
             // 
-            txtsodutaikhoan.Location = new Point(606, 44);
-            txtsodutaikhoan.Name = "txtsodutaikhoan";
-            txtsodutaikhoan.Size = new Size(176, 27);
-            txtsodutaikhoan.TabIndex = 1;
+            txtsodu.Location = new Point(156, 214);
+            txtsodu.Name = "txtsodu";
+            txtsodu.Size = new Size(176, 27);
+            txtsodu.TabIndex = 1;
             // 
             // txttentaikhoan2
             // 
-            txttentaikhoan2.Location = new Point(144, 49);
+            txttentaikhoan2.Location = new Point(156, 48);
             txttentaikhoan2.Name = "txttentaikhoan2";
             txttentaikhoan2.Size = new Size(177, 27);
             txttentaikhoan2.TabIndex = 1;
@@ -273,11 +260,51 @@
             label4.TabIndex = 0;
             label4.Text = "Tên tài khoản";
             // 
+            // groupBox4
+            // 
+            groupBox4.Controls.Add(textsotiengui);
+            groupBox4.Controls.Add(btnguitien);
+            groupBox4.Controls.Add(label9);
+            groupBox4.Location = new Point(484, 292);
+            groupBox4.Name = "groupBox4";
+            groupBox4.Size = new Size(408, 259);
+            groupBox4.TabIndex = 4;
+            groupBox4.TabStop = false;
+            groupBox4.Text = "Gửi tiền";
+            // 
+            // textsotiengui
+            // 
+            textsotiengui.Location = new Point(213, 75);
+            textsotiengui.Name = "textsotiengui";
+            textsotiengui.Size = new Size(150, 27);
+            textsotiengui.TabIndex = 8;
+            // 
+            // btnguitien
+            // 
+            btnguitien.Location = new Point(257, 190);
+            btnguitien.Name = "btnguitien";
+            btnguitien.Size = new Size(122, 47);
+            btnguitien.TabIndex = 6;
+            btnguitien.Text = "Gửi tiền";
+            btnguitien.UseVisualStyleBackColor = true;
+            btnguitien.Click += btnguitien_Click_1;
+            // 
+            // label9
+            // 
+            label9.AutoSize = true;
+            label9.Location = new Point(28, 75);
+            label9.Name = "label9";
+            label9.Size = new Size(123, 20);
+            label9.TabIndex = 5;
+            label9.Text = "Số tiền muốn gửi";
+            label9.Click += label9_Click;
+            // 
             // frmGuitien
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1067, 556);
+            ClientSize = new Size(1067, 586);
+            Controls.Add(groupBox4);
             Controls.Add(groupBox3);
             Controls.Add(groupBox2);
             Controls.Add(groupBox1);
@@ -291,6 +318,9 @@
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             groupBox3.ResumeLayout(false);
             groupBox3.PerformLayout();
+            groupBox4.ResumeLayout(false);
+            groupBox4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)textsotiengui).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -315,10 +345,12 @@
         private Label label6;
         private Label label5;
         private Label label4;
+        private Label label8;
+        private TextBox txtsodu;
+        private GroupBox groupBox4;
         private Button btnguitien;
         private Label label9;
-        private Label label8;
-        private TextBox txtsotienmuongui;
-        private TextBox txtsodutaikhoan;
+        private NumericUpDown textsotiengui;
+        private Button btnxoa;
     }
 }

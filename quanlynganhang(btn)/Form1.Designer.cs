@@ -110,13 +110,13 @@
             // 
             // btncapnhatthongtin
             // 
-            btncapnhatthongtin.Location = new Point(556, 127);
+            btncapnhatthongtin.Location = new Point(558, 126);
             btncapnhatthongtin.Name = "btncapnhatthongtin";
-            btncapnhatthongtin.Size = new Size(146, 45);
-            btncapnhatthongtin.TabIndex = 2;
+            btncapnhatthongtin.Size = new Size(157, 46);
+            btncapnhatthongtin.TabIndex = 3;
             btncapnhatthongtin.Text = "Cập nhật thông tin";
             btncapnhatthongtin.UseVisualStyleBackColor = true;
-            btncapnhatthongtin.Click += btnxoataikhoan_Click;
+            btncapnhatthongtin.Click += btncapnhatthongtin_Click;
             // 
             // Form1
             // 
