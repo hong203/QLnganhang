@@ -164,6 +164,7 @@
             // txtSoTienDaRut
             // 
             txtSoTienDaRut.Location = new Point(175, 135);
+            txtSoTienDaRut.Maximum = new decimal(new int[] { 5000000, 0, 0, 0 });
             txtSoTienDaRut.Name = "txtSoTienDaRut";
             txtSoTienDaRut.Size = new Size(247, 27);
             txtSoTienDaRut.TabIndex = 4;
@@ -226,6 +227,7 @@
             // textSoTienRut
             // 
             textSoTienRut.Location = new Point(186, 39);
+            textSoTienRut.Maximum = new decimal(new int[] { 5000000, 0, 0, 0 });
             textSoTienRut.Name = "textSoTienRut";
             textSoTienRut.Size = new Size(150, 27);
             textSoTienRut.TabIndex = 4;

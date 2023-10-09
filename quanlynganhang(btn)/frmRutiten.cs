@@ -15,9 +15,10 @@ namespace quanlynganhang_btn_
 {
     public partial class frmRutiten : Form
     {
+
         string tentaikhoan, sotaikhoan;
         int sodu = 0;
-        static string cnn = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=QLNH;Integrated Security=True";
+        static string cnn = @"Data Source=LAPTOP-82GOTJUD\SQLEXPRESS;Initial Catalog=QuanLyHang;Integrated Security=True";
         SqlConnection connect;
         public frmRutiten()
         {

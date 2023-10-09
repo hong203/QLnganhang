@@ -92,3 +92,4 @@ D:\Tài Liệu\.NET\QLnganhang\quanlynganhang(btn)\obj\Debug\net6.0-windows\quan
 D:\Tài Liệu\.NET\QLnganhang\quanlynganhang(btn)\obj\Debug\net6.0-windows\ref\quanlynganhang(btn).dll
 >>>>>>> 88d261ae15baee7bd8df5d6f0f2df67cc15fb3ff
 D:\Downloads\QLnganhang\quanlynganhang(btn)\obj\Debug\net6.0-windows\quanlynganhang_btn_.frmCapnhat.resources
+D:\Tài Liệu\.NET\QLnganhang\quanlynganhang(btn)\obj\Debug\net6.0-windows\quanlynganhang_btn_.frmCapnhat.resources
