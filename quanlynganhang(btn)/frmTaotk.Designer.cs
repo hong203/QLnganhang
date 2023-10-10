@@ -230,6 +230,7 @@
             btnxoa.TabIndex = 6;
             btnxoa.Text = "Xóa";
             btnxoa.UseVisualStyleBackColor = true;
+            btnxoa.Click += btnxoa_Click_1;
             // 
             // dataGridView1
             // 
