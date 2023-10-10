@@ -93,3 +93,34 @@ D:\Tài Liệu\.NET\QLnganhang\quanlynganhang(btn)\obj\Debug\net6.0-windows\ref\
 >>>>>>> 88d261ae15baee7bd8df5d6f0f2df67cc15fb3ff
 D:\Downloads\QLnganhang\quanlynganhang(btn)\obj\Debug\net6.0-windows\quanlynganhang_btn_.frmCapnhat.resources
 D:\Tài Liệu\.NET\QLnganhang\quanlynganhang(btn)\obj\Debug\net6.0-windows\quanlynganhang_btn_.frmCapnhat.resources
+C:\Users\HNC\Downloads\QLnganhang\quanlynganhang(btn)\bin\Debug\net6.0-windows\quanlynganhang(btn).exe
+C:\Users\HNC\Downloads\QLnganhang\quanlynganhang(btn)\bin\Debug\net6.0-windows\quanlynganhang(btn).deps.json
+C:\Users\HNC\Downloads\QLnganhang\quanlynganhang(btn)\bin\Debug\net6.0-windows\quanlynganhang(btn).runtimeconfig.json
+C:\Users\HNC\Downloads\QLnganhang\quanlynganhang(btn)\bin\Debug\net6.0-windows\quanlynganhang(btn).dll
+C:\Users\HNC\Downloads\QLnganhang\quanlynganhang(btn)\bin\Debug\net6.0-windows\quanlynganhang(btn).pdb
+C:\Users\HNC\Downloads\QLnganhang\quanlynganhang(btn)\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\HNC\Downloads\QLnganhang\quanlynganhang(btn)\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\HNC\Downloads\QLnganhang\quanlynganhang(btn)\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\HNC\Downloads\QLnganhang\quanlynganhang(btn)\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\HNC\Downloads\QLnganhang\quanlynganhang(btn)\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\HNC\Downloads\QLnganhang\quanlynganhang(btn)\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\HNC\Downloads\QLnganhang\quanlynganhang(btn)\obj\Debug\net6.0-windows\quanlynganhang(btn).csproj.AssemblyReference.cache
+C:\Users\HNC\Downloads\QLnganhang\quanlynganhang(btn)\obj\Debug\net6.0-windows\quanlynganhang_btn_.Form1.resources
+C:\Users\HNC\Downloads\QLnganhang\quanlynganhang(btn)\obj\Debug\net6.0-windows\quanlynganhang_btn_.frmCapnhat.resources
+C:\Users\HNC\Downloads\QLnganhang\quanlynganhang(btn)\obj\Debug\net6.0-windows\quanlynganhang_btn_.frmChuyentien.resources
+C:\Users\HNC\Downloads\QLnganhang\quanlynganhang(btn)\obj\Debug\net6.0-windows\quanlynganhang_btn_.frmGuitien.resources
+C:\Users\HNC\Downloads\QLnganhang\quanlynganhang(btn)\obj\Debug\net6.0-windows\quanlynganhang_btn_.frmkiemsoducs.resources
+C:\Users\HNC\Downloads\QLnganhang\quanlynganhang(btn)\obj\Debug\net6.0-windows\quanlynganhang_btn_.frmRutiten.resources
+C:\Users\HNC\Downloads\QLnganhang\quanlynganhang(btn)\obj\Debug\net6.0-windows\QUANLYNGANHANG.frmTaotk.resources
+C:\Users\HNC\Downloads\QLnganhang\quanlynganhang(btn)\obj\Debug\net6.0-windows\quanlynganhang_btn_.frmxoataikhoan.resources
+C:\Users\HNC\Downloads\QLnganhang\quanlynganhang(btn)\obj\Debug\net6.0-windows\quanlynganhang(btn).csproj.GenerateResource.cache
+C:\Users\HNC\Downloads\QLnganhang\quanlynganhang(btn)\obj\Debug\net6.0-windows\quanlynganhang(btn).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HNC\Downloads\QLnganhang\quanlynganhang(btn)\obj\Debug\net6.0-windows\quanlynganhang(btn).AssemblyInfoInputs.cache
+C:\Users\HNC\Downloads\QLnganhang\quanlynganhang(btn)\obj\Debug\net6.0-windows\quanlynganhang(btn).AssemblyInfo.cs
+C:\Users\HNC\Downloads\QLnganhang\quanlynganhang(btn)\obj\Debug\net6.0-windows\quanlynganhang(btn).csproj.CoreCompileInputs.cache
+C:\Users\HNC\Downloads\QLnganhang\quanlynganhang(btn)\obj\Debug\net6.0-windows\quanlynganhang(btn).csproj.CopyComplete
+C:\Users\HNC\Downloads\QLnganhang\quanlynganhang(btn)\obj\Debug\net6.0-windows\quanlynganhang(btn).dll
+C:\Users\HNC\Downloads\QLnganhang\quanlynganhang(btn)\obj\Debug\net6.0-windows\refint\quanlynganhang(btn).dll
+C:\Users\HNC\Downloads\QLnganhang\quanlynganhang(btn)\obj\Debug\net6.0-windows\quanlynganhang(btn).pdb
+C:\Users\HNC\Downloads\QLnganhang\quanlynganhang(btn)\obj\Debug\net6.0-windows\quanlynganhang(btn).genruntimeconfig.cache
+C:\Users\HNC\Downloads\QLnganhang\quanlynganhang(btn)\obj\Debug\net6.0-windows\ref\quanlynganhang(btn).dll

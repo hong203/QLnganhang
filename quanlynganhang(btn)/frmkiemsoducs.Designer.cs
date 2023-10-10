@@ -29,30 +29,32 @@
         private void InitializeComponent()
         {
             groupBox1 = new GroupBox();
-            btntimkiem = new Button();
+            btnKTsodu = new Button();
             txttentaikhoan1 = new TextBox();
             txtsotaikhoan1 = new TextBox();
             label3 = new Label();
             label2 = new Label();
             groupBox3 = new GroupBox();
-            txtsoduhientai = new TextBox();
+            txtSoDuHienTai = new TextBox();
             label1 = new Label();
             btnguitien = new Button();
             txtCCCD = new TextBox();
-            txtemail = new TextBox();
+            txtEmail = new TextBox();
             txtsotaikhoan2 = new TextBox();
             txttentaikhoan2 = new TextBox();
             label7 = new Label();
             label6 = new Label();
             label5 = new Label();
             label4 = new Label();
+            dataGridView1 = new DataGridView();
             groupBox1.SuspendLayout();
             groupBox3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
             // groupBox1
             // 
-            groupBox1.Controls.Add(btntimkiem);
+            groupBox1.Controls.Add(btnKTsodu);
             groupBox1.Controls.Add(txttentaikhoan1);
             groupBox1.Controls.Add(txtsotaikhoan1);
             groupBox1.Controls.Add(label3);
@@ -64,14 +66,15 @@
             groupBox1.TabStop = false;
             groupBox1.Text = "Tìm kiếm tài khoản";
             // 
-            // btntimkiem
+            // btnKTsodu
             // 
-            btntimkiem.Location = new Point(136, 156);
-            btntimkiem.Name = "btntimkiem";
-            btntimkiem.Size = new Size(126, 29);
-            btntimkiem.TabIndex = 2;
-            btntimkiem.Text = "Kiểm tra số dư";
-            btntimkiem.UseVisualStyleBackColor = true;
+            btnKTsodu.Location = new Point(136, 156);
+            btnKTsodu.Name = "btnKTsodu";
+            btnKTsodu.Size = new Size(126, 29);
+            btnKTsodu.TabIndex = 2;
+            btnKTsodu.Text = "Kiểm tra số dư";
+            btnKTsodu.UseVisualStyleBackColor = true;
+            btnKTsodu.Click += btnKTsodu_Click;
             // 
             // txttentaikhoan1
             // 
@@ -107,11 +110,11 @@
             // 
             // groupBox3
             // 
-            groupBox3.Controls.Add(txtsoduhientai);
+            groupBox3.Controls.Add(txtSoDuHienTai);
             groupBox3.Controls.Add(label1);
             groupBox3.Controls.Add(btnguitien);
             groupBox3.Controls.Add(txtCCCD);
-            groupBox3.Controls.Add(txtemail);
+            groupBox3.Controls.Add(txtEmail);
             groupBox3.Controls.Add(txtsotaikhoan2);
             groupBox3.Controls.Add(txttentaikhoan2);
             groupBox3.Controls.Add(label7);
@@ -125,12 +128,12 @@
             groupBox3.TabStop = false;
             groupBox3.Text = "Thông tin chi tiết";
             // 
-            // txtsoduhientai
+            // txtSoDuHienTai
             // 
-            txtsoduhientai.Location = new Point(144, 231);
-            txtsoduhientai.Name = "txtsoduhientai";
-            txtsoduhientai.Size = new Size(177, 27);
-            txtsoduhientai.TabIndex = 5;
+            txtSoDuHienTai.Location = new Point(144, 231);
+            txtSoDuHienTai.Name = "txtSoDuHienTai";
+            txtSoDuHienTai.Size = new Size(177, 27);
+            txtSoDuHienTai.TabIndex = 5;
             // 
             // label1
             // 
@@ -157,12 +160,12 @@
             txtCCCD.Size = new Size(177, 27);
             txtCCCD.TabIndex = 1;
             // 
-            // txtemail
+            // txtEmail
             // 
-            txtemail.Location = new Point(144, 132);
-            txtemail.Name = "txtemail";
-            txtemail.Size = new Size(177, 27);
-            txtemail.TabIndex = 1;
+            txtEmail.Location = new Point(144, 132);
+            txtEmail.Name = "txtEmail";
+            txtEmail.Size = new Size(177, 27);
+            txtEmail.TabIndex = 1;
             // 
             // txtsotaikhoan2
             // 
@@ -214,32 +217,46 @@
             label4.TabIndex = 0;
             label4.Text = "Tên tài khoản";
             // 
+            // dataGridView1
+            // 
+            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.Dock = DockStyle.Bottom;
+            dataGridView1.Location = new Point(0, 371);
+            dataGridView1.Name = "dataGridView1";
+            dataGridView1.RowHeadersWidth = 51;
+            dataGridView1.RowTemplate.Height = 29;
+            dataGridView1.Size = new Size(1090, 188);
+            dataGridView1.TabIndex = 7;
+            // 
             // frmkiemsoducs
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(890, 390);
+            ClientSize = new Size(1090, 559);
+            Controls.Add(dataGridView1);
             Controls.Add(groupBox3);
             Controls.Add(groupBox1);
             Name = "frmkiemsoducs";
             Text = "frmkiemsoducs";
+            Load += frmkiemsoducs_Load;
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
             groupBox3.ResumeLayout(false);
             groupBox3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
         }
 
         #endregion
 
         private GroupBox groupBox1;
-        private Button btntimkiem;
+        private Button btnKTsodu;
         private TextBox txttentaikhoan1;
         private TextBox txtsotaikhoan1;
         private Label label3;
         private Label label2;
         private GroupBox groupBox3;
-        private TextBox txtsoduhientai;
+        private TextBox txtSoDuHienTai;
         private Label label1;
         private Button btnguitien;
         private TextBox txtCCCD;
@@ -250,5 +267,7 @@
         private Label label6;
         private Label label5;
         private Label label4;
+        private DataGridView dataGridView1;
+        private TextBox txtEmail;
     }
 }
