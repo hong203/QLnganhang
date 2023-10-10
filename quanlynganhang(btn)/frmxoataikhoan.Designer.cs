@@ -73,6 +73,7 @@
             btnkiemtra.TabIndex = 2;
             btnkiemtra.Text = "Kiểm tra";
             btnkiemtra.UseVisualStyleBackColor = true;
+            btnkiemtra.Click += btnkiemtra_Click;
             // 
             // txttentaikhoan1
             // 
@@ -227,6 +228,7 @@
             Controls.Add(groupBox1);
             Name = "frmxoataikhoan";
             Text = "frmxoataikhoan";
+            Load += frmxoataikhoan_Load;
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();

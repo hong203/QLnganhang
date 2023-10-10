@@ -90,6 +90,11 @@ namespace QUANLYNGANHANG
 
         private void btnxoa_Click(object sender, EventArgs e)
         {
+        
+        }
+
+        private void btnxoa_Click_1(object sender, EventArgs e)
+        {
             txttentaikhoan.Text = "";
             txtsotaikhoan.Text = "";
             txtmatkhau.Text = "";
@@ -101,6 +106,7 @@ namespace QUANLYNGANHANG
             dateTime = Convert.ToDateTime("01/01/1900");
             dtpngaysinh.Value = dateTime;
             cbnam.Checked = false;
+
         }
     }
 }
