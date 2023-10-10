@@ -12,9 +12,10 @@ namespace quanlynganhang_btn_
 {
     public partial class frmChuyentien : Form
     {
-        static string cnn = @" Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=QLNH;Integrated Security=True";
+        string tentaikhoan, sotaikhoan;
+        int sodu = 0;
+        static string cnn = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=QLNH;Integrated Security=True";
         SqlConnection connect;
-
 
         public frmChuyentien()
         {
@@ -22,7 +23,6 @@ namespace quanlynganhang_btn_
         }
         void hienthi()
         {
-
             string sql = "SELECT * FROM dbo.qlnh";
             SqlDataAdapter adapter = new SqlDataAdapter();
             adapter.SelectCommand = new SqlCommand(sql, connect);
@@ -30,16 +30,6 @@ namespace quanlynganhang_btn_
             DataTable dt = new DataTable();
             adapter.Fill(dt);
             dataGridView1.DataSource = dt;
-        }
-
-        private void label8_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-            //2
         }
 
         private void frmChuyentien_Load(object sender, EventArgs e)
@@ -52,13 +42,74 @@ namespace quanlynganhang_btn_
             }
             catch
             {
-                MessageBox.Show("Loi ket noi CSDL toi Project");
+                MessageBox.Show("Loi ket noi den form Chuyển Khoản!");
             }
         }
 
-        private void label2_Click(object sender, EventArgs e)
+        private void btntimkiem_Click(object sender, EventArgs e)
         {
+            tentaikhoan = txttentaikhoan1.Text;
+            sotaikhoan = txtsotaikhoan1.Text;
 
+            string sql = "SELECT * FROM dbo.qlnh WHERE  SoTaiKhoan='" +
+              sotaikhoan + "' and TenTaiKhoan = '" + tentaikhoan + "'";
+
+            using (SqlCommand command = new SqlCommand(sql, connect))
+            {
+                // Thay thế @Username bằng tên tài khoản cần truy vấn
+                //command.Parameters.AddWithValue("@Username", username);
+
+                // Thực hiện truy vấn và đọc dữ liệu
+                using (SqlDataReader reader = command.ExecuteReader())
+                {
+                    if (reader.Read())
+                    {
+                        txttentaikhoan2.Text = reader["Tentaikhoan"].ToString();
+                        txtsotaikhoan2.Text = reader["Sotaikhoan"].ToString();
+                        txtemail.Text = reader["Diachiemail"].ToString();
+                        txtCCCD.Text = reader["Socccd"].ToString();
+                        txtsodu.Text = reader["Sodu"].ToString();
+                        sodu = Convert.ToInt32(reader["Sodu"]);
+                    }
+                    else
+                    {
+                        MessageBox.Show("Không tìm thấy thông tin cho tên tài khoản này.");
+                    }
+                }
+            }
+
+            SqlDataAdapter adapter = new SqlDataAdapter();
+            adapter.SelectCommand = new SqlCommand(sql, connect);
+            adapter.SelectCommand.ExecuteNonQuery();
+
+            DataTable dt = new DataTable();
+            adapter.Fill(dt);
+
+            dataGridView1.DataSource = dt;
         }
+
+        private void btnchuyentien_Click(object sender, EventArgs e)
+        {
+            int sotienchuyen = (int)txtSoTienChuyen.Bottom;
+
+            DialogResult result = MessageBox.Show("bạn có muốn chuyển: " + sotienchuyen + "VND", " Thông Báo ", MessageBoxButtons.YesNo);
+
+            if (result == DialogResult.Yes)
+            {
+                string sotaikhoan = txtsotaikhoan1.Text;
+                string tentaikhoan = txttentaikhoan1.Text;
+
+                txtSoTienChuyen.Text = sotaikhoan;
+                int SoDu = sodu - sotienchuyen;
+
+                string sql = "UPDATE dbo.qlnh set Sodu='" + SoDu + "' WHERE Tentaikhoan = '" + tentaikhoan + "' AND Sotaikhoan ='" + sotaikhoan + "'";
+                SqlDataAdapter adapter = new SqlDataAdapter();
+                adapter.UpdateCommand = new SqlCommand(sql, connect);
+                adapter.UpdateCommand.ExecuteNonQuery();
+                hienthi();
+            }
+        }
+
+
     }
 }
