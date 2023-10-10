@@ -73,6 +73,7 @@
             btnkiemtra.TabIndex = 2;
             btnkiemtra.Text = "Kiểm tra";
             btnkiemtra.UseVisualStyleBackColor = true;
+            btnkiemtra.Click += btnkiemtra_Click;
             // 
             // txttentaikhoan1
             // 
