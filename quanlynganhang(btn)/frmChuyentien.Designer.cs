@@ -90,16 +90,7 @@
             txttentaikhoan2.ReadOnly = true;
             txttentaikhoan2.Size = new Size(194, 31);
             txttentaikhoan2.TabIndex = 2;
-            // 
-            // txtSodu
-            // 
-            txtSodu.Location = new Point(179, 253);
-            txtSodu.Margin = new Padding(4, 3, 4, 3);
-            txtSodu.Name = "txtSodu";
-            txtSodu.ReadOnly = true;
-            txtSodu.Size = new Size(197, 31);
-            txtSodu.TabIndex = 2;
-            txtSodu.TextChanged += txtSodu_TextChanged;
+            
             // 
             // txtCCCD
             // 
@@ -198,7 +189,7 @@
             dataGridView1.RowHeadersWidth = 62;
             dataGridView1.Size = new Size(663, 212);
             dataGridView1.TabIndex = 0;
-            dataGridView1.CellClick += dataGridView1_CellContentClick;
+           
             // 
             // groupBox1
             // 
@@ -280,17 +271,7 @@
             txttenTaiKhoanNhan.Size = new Size(204, 31);
             txttenTaiKhoanNhan.TabIndex = 2;
             // 
-            // numsotienchuyen
-            // 
-            numsotienchuyen.Location = new Point(330, 167);
-            numsotienchuyen.Margin = new Padding(4, 5, 4, 5);
-            numsotienchuyen.Maximum = new decimal(new int[] { 500000000, 0, 0, 0 });
-            numsotienchuyen.Minimum = new decimal(new int[] { 1000, 0, 0, 0 });
-            numsotienchuyen.Name = "numsotienchuyen";
-            numsotienchuyen.Size = new Size(203, 31);
-            numsotienchuyen.TabIndex = 5;
-            numsotienchuyen.Value = new decimal(new int[] { 1000, 0, 0, 0 });
-            numsotienchuyen.ValueChanged += numsotienchuyen_ValueChanged;
+            
             // 
             // button1
             // 

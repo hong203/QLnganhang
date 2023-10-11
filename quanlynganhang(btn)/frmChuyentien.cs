@@ -33,16 +33,6 @@ namespace quanlynganhang_btn_
         }
 
 
-        private void label8_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
 
         private void frmChuyentien_Load(object sender, EventArgs e)
         {
@@ -139,10 +129,6 @@ namespace quanlynganhang_btn_
             }
         }
 
-        private void numsotienchuyen_ValueChanged(object sender, EventArgs e)
-        {
-
-        }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
@@ -157,11 +143,7 @@ namespace quanlynganhang_btn_
             }
         }
 
-        private void txtSodu_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
+       
         private void txtdentaikhoan_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Enter)
@@ -197,9 +179,5 @@ namespace quanlynganhang_btn_
             }
         }
 
-        private void txtdentaikhoan_TextChanged(object sender, EventArgs e)
-        {
-
-        }
     }
 }

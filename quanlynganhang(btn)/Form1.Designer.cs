@@ -40,12 +40,12 @@
             // 
             // btntaotaikhoan
             // 
-<<<<<<< HEAD
+
             btntaotaikhoan.Location = new Point(306, 168);
             btntaotaikhoan.Margin = new Padding(4, 4, 4, 4);
-=======
+
             btntaotaikhoan.Location = new Point(58, 126);
->>>>>>> f0e070af1cb01cbe2b81564d21f179d82a69eae8
+
             btntaotaikhoan.Name = "btntaotaikhoan";
             btntaotaikhoan.Size = new Size(154, 58);
             btntaotaikhoan.TabIndex = 0;
@@ -55,12 +55,12 @@
             // 
             // btnguitien
             // 
-<<<<<<< HEAD
+
             btnguitien.Location = new Point(306, 259);
             btnguitien.Margin = new Padding(4, 4, 4, 4);
-=======
+
             btnguitien.Location = new Point(395, 208);
->>>>>>> f0e070af1cb01cbe2b81564d21f179d82a69eae8
+
             btnguitien.Name = "btnguitien";
             btnguitien.Size = new Size(154, 55);
             btnguitien.TabIndex = 0;
@@ -70,12 +70,12 @@
             // 
             // btnchuyenkhoan
             // 
-<<<<<<< HEAD
+
             btnchuyenkhoan.Location = new Point(306, 356);
             btnchuyenkhoan.Margin = new Padding(4, 4, 4, 4);
-=======
+
             btnchuyenkhoan.Location = new Point(395, 127);
->>>>>>> f0e070af1cb01cbe2b81564d21f179d82a69eae8
+
             btnchuyenkhoan.Name = "btnchuyenkhoan";
             btnchuyenkhoan.Size = new Size(154, 56);
             btnchuyenkhoan.TabIndex = 0;
@@ -85,16 +85,16 @@
             // 
             // btnruttien
             // 
-<<<<<<< HEAD
+
             btnruttien.Location = new Point(585, 168);
             btnruttien.Margin = new Padding(4, 4, 4, 4);
             btnruttien.Name = "btnruttien";
             btnruttien.Size = new Size(149, 58);
-=======
+
             btnruttien.Location = new Point(58, 206);
             btnruttien.Name = "btnruttien";
             btnruttien.Size = new Size(123, 46);
->>>>>>> f0e070af1cb01cbe2b81564d21f179d82a69eae8
+
             btnruttien.TabIndex = 0;
             btnruttien.Text = "Rút tiền";
             btnruttien.UseVisualStyleBackColor = true;
@@ -102,12 +102,12 @@
             // 
             // btnktsodu
             // 
-<<<<<<< HEAD
+
             btnktsodu.Location = new Point(585, 259);
             btnktsodu.Margin = new Padding(4, 4, 4, 4);
-=======
+
             btnktsodu.Location = new Point(233, 208);
->>>>>>> f0e070af1cb01cbe2b81564d21f179d82a69eae8
+
             btnktsodu.Name = "btnktsodu";
             btnktsodu.Size = new Size(149, 55);
             btnktsodu.TabIndex = 0;
@@ -119,12 +119,12 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Calibri", 19.8000011F, FontStyle.Bold, GraphicsUnit.Point);
-<<<<<<< HEAD
+
             label1.Location = new Point(320, 50);
             label1.Margin = new Padding(4, 0, 4, 0);
-=======
+
             label1.Location = new Point(233, 51);
->>>>>>> f0e070af1cb01cbe2b81564d21f179d82a69eae8
+
             label1.Name = "label1";
             label1.Size = new Size(386, 49);
             label1.TabIndex = 1;
@@ -132,12 +132,12 @@
             // 
             // btnxoataikhoan
             // 
-<<<<<<< HEAD
+
             btnxoataikhoan.Location = new Point(585, 356);
             btnxoataikhoan.Margin = new Padding(4, 4, 4, 4);
-=======
+
             btnxoataikhoan.Location = new Point(233, 127);
->>>>>>> f0e070af1cb01cbe2b81564d21f179d82a69eae8
+
             btnxoataikhoan.Name = "btnxoataikhoan";
             btnxoataikhoan.Size = new Size(149, 56);
             btnxoataikhoan.TabIndex = 2;
@@ -159,12 +159,12 @@
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-<<<<<<< HEAD
+
             ClientSize = new Size(1000, 562);
-=======
+
             ClientSize = new Size(824, 343);
             Controls.Add(btncapnhatthongtin);
->>>>>>> f0e070af1cb01cbe2b81564d21f179d82a69eae8
+
             Controls.Add(btnxoataikhoan);
             Controls.Add(label1);
             Controls.Add(btnktsodu);
