@@ -39,9 +39,10 @@
             // 
             // btntaotaikhoan
             // 
-            btntaotaikhoan.Location = new Point(245, 134);
+            btntaotaikhoan.Location = new Point(306, 168);
+            btntaotaikhoan.Margin = new Padding(4, 4, 4, 4);
             btntaotaikhoan.Name = "btntaotaikhoan";
-            btntaotaikhoan.Size = new Size(123, 46);
+            btntaotaikhoan.Size = new Size(154, 58);
             btntaotaikhoan.TabIndex = 0;
             btntaotaikhoan.Text = "Tạo tài khoản";
             btntaotaikhoan.UseVisualStyleBackColor = true;
@@ -49,9 +50,10 @@
             // 
             // btnguitien
             // 
-            btnguitien.Location = new Point(245, 207);
+            btnguitien.Location = new Point(306, 259);
+            btnguitien.Margin = new Padding(4, 4, 4, 4);
             btnguitien.Name = "btnguitien";
-            btnguitien.Size = new Size(123, 44);
+            btnguitien.Size = new Size(154, 55);
             btnguitien.TabIndex = 0;
             btnguitien.Text = "Gửi tiền";
             btnguitien.UseVisualStyleBackColor = true;
@@ -59,9 +61,10 @@
             // 
             // btnchuyenkhoan
             // 
-            btnchuyenkhoan.Location = new Point(245, 285);
+            btnchuyenkhoan.Location = new Point(306, 356);
+            btnchuyenkhoan.Margin = new Padding(4, 4, 4, 4);
             btnchuyenkhoan.Name = "btnchuyenkhoan";
-            btnchuyenkhoan.Size = new Size(123, 45);
+            btnchuyenkhoan.Size = new Size(154, 56);
             btnchuyenkhoan.TabIndex = 0;
             btnchuyenkhoan.Text = "Chuyển khoản";
             btnchuyenkhoan.UseVisualStyleBackColor = true;
@@ -69,9 +72,10 @@
             // 
             // btnruttien
             // 
-            btnruttien.Location = new Point(468, 134);
+            btnruttien.Location = new Point(585, 168);
+            btnruttien.Margin = new Padding(4, 4, 4, 4);
             btnruttien.Name = "btnruttien";
-            btnruttien.Size = new Size(119, 46);
+            btnruttien.Size = new Size(149, 58);
             btnruttien.TabIndex = 0;
             btnruttien.Text = "Rút tiền";
             btnruttien.UseVisualStyleBackColor = true;
@@ -79,9 +83,10 @@
             // 
             // btnktsodu
             // 
-            btnktsodu.Location = new Point(468, 207);
+            btnktsodu.Location = new Point(585, 259);
+            btnktsodu.Margin = new Padding(4, 4, 4, 4);
             btnktsodu.Name = "btnktsodu";
-            btnktsodu.Size = new Size(119, 44);
+            btnktsodu.Size = new Size(149, 55);
             btnktsodu.TabIndex = 0;
             btnktsodu.Text = "Kiểm tra số dư";
             btnktsodu.UseVisualStyleBackColor = true;
@@ -91,17 +96,19 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Calibri", 19.8000011F, FontStyle.Bold, GraphicsUnit.Point);
-            label1.Location = new Point(256, 40);
+            label1.Location = new Point(320, 50);
+            label1.Margin = new Padding(4, 0, 4, 0);
             label1.Name = "label1";
-            label1.Size = new Size(331, 41);
+            label1.Size = new Size(386, 49);
             label1.TabIndex = 1;
             label1.Text = "QUẢN LÝ NGÂN HÀNG";
             // 
             // btnxoataikhoan
             // 
-            btnxoataikhoan.Location = new Point(468, 285);
+            btnxoataikhoan.Location = new Point(585, 356);
+            btnxoataikhoan.Margin = new Padding(4, 4, 4, 4);
             btnxoataikhoan.Name = "btnxoataikhoan";
-            btnxoataikhoan.Size = new Size(119, 45);
+            btnxoataikhoan.Size = new Size(149, 56);
             btnxoataikhoan.TabIndex = 2;
             btnxoataikhoan.Text = "Xóa tài khoản";
             btnxoataikhoan.UseVisualStyleBackColor = true;
@@ -109,9 +116,9 @@
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(1000, 562);
             Controls.Add(btnxoataikhoan);
             Controls.Add(label1);
             Controls.Add(btnktsodu);
@@ -119,8 +126,10 @@
             Controls.Add(btnchuyenkhoan);
             Controls.Add(btnguitien);
             Controls.Add(btntaotaikhoan);
+            Margin = new Padding(4, 4, 4, 4);
             Name = "Form1";
             Text = "Hệ thống quản lý ngân hàng";
+            Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();
         }

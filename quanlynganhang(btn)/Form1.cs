@@ -1,3 +1,4 @@
+using QUANLYNGANHANG;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -52,8 +53,13 @@ namespace quanlynganhang_btn_
 
         private void btnxoataikhoan_Click(object sender, EventArgs e)
         {
-            frmxoataikhoan xtk= new frmxoataikhoan();   
+            frmxoataikhoan xtk = new frmxoataikhoan();
             xtk.ShowDialog();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

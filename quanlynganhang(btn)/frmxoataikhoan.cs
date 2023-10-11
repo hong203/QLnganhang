@@ -16,5 +16,10 @@ namespace quanlynganhang_btn_
         {
             InitializeComponent();
         }
+
+        private void btnkiemtra_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

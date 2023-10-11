@@ -29,7 +29,10 @@
         private void InitializeComponent()
         {
             groupBox3 = new GroupBox();
+            txttentaikhoan2 = new TextBox();
+            txtSodu = new TextBox();
             txtCCCD = new TextBox();
+            label10 = new Label();
             txtemail = new TextBox();
             txtsotaikhoan2 = new TextBox();
             label7 = new Label();
@@ -39,75 +42,106 @@
             groupBox2 = new GroupBox();
             dataGridView1 = new DataGridView();
             groupBox1 = new GroupBox();
-            cbtentaikhoan1 = new ComboBox();
+            label11 = new Label();
             btntimkiem = new Button();
-            txtsotaikhoan1 = new TextBox();
-            label3 = new Label();
-            label2 = new Label();
+            txtcmnd = new TextBox();
             label1 = new Label();
             groupBox4 = new GroupBox();
-            btnchuyentien = new Button();
+            txttenTaiKhoanNhan = new TextBox();
+            numsotienchuyen = new NumericUpDown();
+            button1 = new Button();
             txtdentaikhoan = new TextBox();
-            txtSoTienChuyen = new TextBox();
-            txtsodu = new TextBox();
-            label10 = new Label();
             label9 = new Label();
             label8 = new Label();
-            txttentaikhoan2 = new TextBox();
+            label2 = new Label();
             groupBox3.SuspendLayout();
             groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             groupBox1.SuspendLayout();
             groupBox4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)numsotienchuyen).BeginInit();
             SuspendLayout();
             // 
             // groupBox3
             // 
             groupBox3.Controls.Add(txttentaikhoan2);
+            groupBox3.Controls.Add(txtSodu);
             groupBox3.Controls.Add(txtCCCD);
+            groupBox3.Controls.Add(label10);
             groupBox3.Controls.Add(txtemail);
             groupBox3.Controls.Add(txtsotaikhoan2);
             groupBox3.Controls.Add(label7);
             groupBox3.Controls.Add(label6);
             groupBox3.Controls.Add(label5);
             groupBox3.Controls.Add(label4);
-            groupBox3.Location = new Point(78, 351);
-            groupBox3.Margin = new Padding(4);
+            groupBox3.Location = new Point(79, 352);
+            groupBox3.Margin = new Padding(4, 3, 4, 3);
             groupBox3.Name = "groupBox3";
-            groupBox3.Padding = new Padding(4);
-            groupBox3.Size = new Size(450, 276);
+            groupBox3.Padding = new Padding(4, 3, 4, 3);
+            groupBox3.Size = new Size(461, 310);
             groupBox3.TabIndex = 6;
             groupBox3.TabStop = false;
             groupBox3.Text = "Tài khoản";
             // 
+            // txttentaikhoan2
+            // 
+            txttentaikhoan2.Location = new Point(181, 44);
+            txttentaikhoan2.Name = "txttentaikhoan2";
+            txttentaikhoan2.ReadOnly = true;
+            txttentaikhoan2.Size = new Size(194, 31);
+            txttentaikhoan2.TabIndex = 2;
+            // 
+            // txtSodu
+            // 
+            txtSodu.Location = new Point(179, 253);
+            txtSodu.Margin = new Padding(4, 3, 4, 3);
+            txtSodu.Name = "txtSodu";
+            txtSodu.ReadOnly = true;
+            txtSodu.Size = new Size(197, 31);
+            txtSodu.TabIndex = 2;
+            txtSodu.TextChanged += txtSodu_TextChanged;
+            // 
             // txtCCCD
             // 
-            txtCCCD.Location = new Point(180, 218);
-            txtCCCD.Margin = new Padding(4);
+            txtCCCD.Location = new Point(180, 200);
+            txtCCCD.Margin = new Padding(4, 3, 4, 3);
             txtCCCD.Name = "txtCCCD";
+            txtCCCD.ReadOnly = true;
             txtCCCD.Size = new Size(195, 31);
             txtCCCD.TabIndex = 1;
             // 
+            // label10
+            // 
+            label10.AutoSize = true;
+            label10.Location = new Point(16, 253);
+            label10.Margin = new Padding(4, 0, 4, 0);
+            label10.Name = "label10";
+            label10.Size = new Size(122, 25);
+            label10.TabIndex = 1;
+            label10.Text = "Số dư hiện tại";
+            // 
             // txtemail
             // 
-            txtemail.Location = new Point(180, 165);
-            txtemail.Margin = new Padding(4);
+            txtemail.Location = new Point(180, 147);
+            txtemail.Margin = new Padding(4, 3, 4, 3);
             txtemail.Name = "txtemail";
+            txtemail.ReadOnly = true;
             txtemail.Size = new Size(195, 31);
             txtemail.TabIndex = 1;
             // 
             // txtsotaikhoan2
             // 
-            txtsotaikhoan2.Location = new Point(180, 112);
-            txtsotaikhoan2.Margin = new Padding(4);
+            txtsotaikhoan2.Location = new Point(181, 100);
+            txtsotaikhoan2.Margin = new Padding(4, 3, 4, 3);
             txtsotaikhoan2.Name = "txtsotaikhoan2";
+            txtsotaikhoan2.ReadOnly = true;
             txtsotaikhoan2.Size = new Size(195, 31);
             txtsotaikhoan2.TabIndex = 1;
             // 
             // label7
             // 
             label7.AutoSize = true;
-            label7.Location = new Point(49, 221);
+            label7.Location = new Point(49, 204);
             label7.Margin = new Padding(4, 0, 4, 0);
             label7.Name = "label7";
             label7.Size = new Size(58, 25);
@@ -117,7 +151,7 @@
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(49, 169);
+            label6.Location = new Point(49, 150);
             label6.Margin = new Padding(4, 0, 4, 0);
             label6.Name = "label6";
             label6.Size = new Size(54, 25);
@@ -127,7 +161,7 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(49, 112);
+            label5.Location = new Point(49, 100);
             label5.Margin = new Padding(4, 0, 4, 0);
             label5.Name = "label5";
             label5.Size = new Size(111, 25);
@@ -137,7 +171,7 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(49, 60);
+            label4.Location = new Point(49, 47);
             label4.Margin = new Padding(4, 0, 4, 0);
             label4.Name = "label4";
             label4.Size = new Size(116, 25);
@@ -147,11 +181,11 @@
             // groupBox2
             // 
             groupBox2.Controls.Add(dataGridView1);
-            groupBox2.Location = new Point(582, 54);
-            groupBox2.Margin = new Padding(4);
+            groupBox2.Location = new Point(581, 53);
+            groupBox2.Margin = new Padding(4, 3, 4, 3);
             groupBox2.Name = "groupBox2";
-            groupBox2.Padding = new Padding(4);
-            groupBox2.Size = new Size(752, 264);
+            groupBox2.Padding = new Padding(4, 3, 4, 3);
+            groupBox2.Size = new Size(686, 263);
             groupBox2.TabIndex = 5;
             groupBox2.TabStop = false;
             groupBox2.Text = "Danh sách tài khoản";
@@ -159,79 +193,61 @@
             // dataGridView1
             // 
             dataGridView1.ColumnHeadersHeight = 34;
-            dataGridView1.Location = new Point(8, 31);
+            dataGridView1.Location = new Point(9, 32);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 62;
-            dataGridView1.Size = new Size(752, 212);
+            dataGridView1.Size = new Size(663, 212);
             dataGridView1.TabIndex = 0;
+            dataGridView1.CellClick += dataGridView1_CellContentClick;
             // 
             // groupBox1
             // 
-            groupBox1.Controls.Add(cbtentaikhoan1);
+            groupBox1.Controls.Add(label11);
             groupBox1.Controls.Add(btntimkiem);
-            groupBox1.Controls.Add(txtsotaikhoan1);
-            groupBox1.Controls.Add(label3);
-            groupBox1.Controls.Add(label2);
-            groupBox1.Location = new Point(78, 54);
-            groupBox1.Margin = new Padding(4);
+            groupBox1.Controls.Add(txtcmnd);
+            groupBox1.Location = new Point(79, 53);
+            groupBox1.Margin = new Padding(4, 3, 4, 3);
             groupBox1.Name = "groupBox1";
-            groupBox1.Padding = new Padding(4);
-            groupBox1.Size = new Size(450, 264);
+            groupBox1.Padding = new Padding(4, 3, 4, 3);
+            groupBox1.Size = new Size(450, 263);
             groupBox1.TabIndex = 4;
             groupBox1.TabStop = false;
             groupBox1.Text = "Tìm kiếm tài khoản";
             // 
-            // cbtentaikhoan1
+            // label11
             // 
-            cbtentaikhoan1.Location = new Point(163, 116);
-            cbtentaikhoan1.Name = "cbtentaikhoan1";
-            cbtentaikhoan1.Size = new Size(237, 33);
-            cbtentaikhoan1.TabIndex = 0;
+            label11.AutoSize = true;
+            label11.Location = new Point(43, 72);
+            label11.Margin = new Padding(4, 0, 4, 0);
+            label11.Name = "label11";
+            label11.Size = new Size(127, 25);
+            label11.TabIndex = 3;
+            label11.Text = "CCCD/CMND :";
             // 
             // btntimkiem
             // 
-            btntimkiem.Location = new Point(219, 195);
-            btntimkiem.Margin = new Padding(4);
+            btntimkiem.Location = new Point(190, 172);
+            btntimkiem.Margin = new Padding(4, 3, 4, 3);
             btntimkiem.Name = "btntimkiem";
-            btntimkiem.Size = new Size(118, 36);
+            btntimkiem.Size = new Size(119, 37);
             btntimkiem.TabIndex = 2;
             btntimkiem.Text = "Tìm kiếm";
             btntimkiem.UseVisualStyleBackColor = true;
             btntimkiem.Click += btntimkiem_Click;
             // 
-            // txtsotaikhoan1
+            // txtcmnd
             // 
-            txtsotaikhoan1.Location = new Point(163, 45);
-            txtsotaikhoan1.Margin = new Padding(4);
-            txtsotaikhoan1.Name = "txtsotaikhoan1";
-            txtsotaikhoan1.Size = new Size(237, 31);
-            txtsotaikhoan1.TabIndex = 1;
-            // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Location = new Point(25, 124);
-            label3.Margin = new Padding(4, 0, 4, 0);
-            label3.Name = "label3";
-            label3.Size = new Size(116, 25);
-            label3.TabIndex = 0;
-            label3.Text = "Tên tài khoản";
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Location = new Point(25, 49);
-            label2.Margin = new Padding(4, 0, 4, 0);
-            label2.Name = "label2";
-            label2.Size = new Size(111, 25);
-            label2.TabIndex = 0;
-            label2.Text = "Số tài khoản";
+            txtcmnd.Location = new Point(170, 72);
+            txtcmnd.Margin = new Padding(4, 3, 4, 3);
+            txtcmnd.Name = "txtcmnd";
+            txtcmnd.Size = new Size(237, 31);
+            txtcmnd.TabIndex = 1;
             // 
             // label1
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label1.Location = new Point(542, 11);
+            label1.Location = new Point(541, 12);
             label1.Margin = new Padding(4, 0, 4, 0);
             label1.Name = "label1";
             label1.Size = new Size(150, 32);
@@ -240,71 +256,67 @@
             // 
             // groupBox4
             // 
-            groupBox4.Controls.Add(btnchuyentien);
+            groupBox4.Controls.Add(txttenTaiKhoanNhan);
+            groupBox4.Controls.Add(numsotienchuyen);
+            groupBox4.Controls.Add(button1);
             groupBox4.Controls.Add(txtdentaikhoan);
-            groupBox4.Controls.Add(txtSoTienChuyen);
-            groupBox4.Controls.Add(txtsodu);
-            groupBox4.Controls.Add(label10);
             groupBox4.Controls.Add(label9);
             groupBox4.Controls.Add(label8);
-            groupBox4.Location = new Point(590, 351);
-            groupBox4.Margin = new Padding(4);
+            groupBox4.Controls.Add(label2);
+            groupBox4.Location = new Point(581, 363);
+            groupBox4.Margin = new Padding(4, 3, 4, 3);
             groupBox4.Name = "groupBox4";
-            groupBox4.Padding = new Padding(4);
-            groupBox4.Size = new Size(738, 276);
+            groupBox4.Padding = new Padding(4, 3, 4, 3);
+            groupBox4.Size = new Size(671, 299);
             groupBox4.TabIndex = 8;
             groupBox4.TabStop = false;
             groupBox4.Text = "Chuyển tiền đến tài khoản";
             // 
-            // btnchuyentien
+            // txttenTaiKhoanNhan
             // 
-            btnchuyentien.Location = new Point(578, 166);
-            btnchuyentien.Margin = new Padding(4);
-            btnchuyentien.Name = "btnchuyentien";
-            btnchuyentien.Size = new Size(129, 80);
-            btnchuyentien.TabIndex = 3;
-            btnchuyentien.Text = "Chuyển tiền";
-            btnchuyentien.UseVisualStyleBackColor = true;
-            btnchuyentien.Click += btnchuyentien_Click;
+            txttenTaiKhoanNhan.Location = new Point(330, 107);
+            txttenTaiKhoanNhan.Name = "txttenTaiKhoanNhan";
+            txttenTaiKhoanNhan.ReadOnly = true;
+            txttenTaiKhoanNhan.Size = new Size(204, 31);
+            txttenTaiKhoanNhan.TabIndex = 2;
+            // 
+            // numsotienchuyen
+            // 
+            numsotienchuyen.Location = new Point(330, 167);
+            numsotienchuyen.Margin = new Padding(4, 5, 4, 5);
+            numsotienchuyen.Maximum = new decimal(new int[] { 500000000, 0, 0, 0 });
+            numsotienchuyen.Minimum = new decimal(new int[] { 1000, 0, 0, 0 });
+            numsotienchuyen.Name = "numsotienchuyen";
+            numsotienchuyen.Size = new Size(203, 31);
+            numsotienchuyen.TabIndex = 5;
+            numsotienchuyen.Value = new decimal(new int[] { 1000, 0, 0, 0 });
+            numsotienchuyen.ValueChanged += numsotienchuyen_ValueChanged;
+            // 
+            // button1
+            // 
+            button1.Location = new Point(330, 242);
+            button1.Margin = new Padding(4, 3, 4, 3);
+            button1.Name = "button1";
+            button1.Size = new Size(119, 37);
+            button1.TabIndex = 2;
+            button1.Text = "Chuyển tiền";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += btnchuyentien_Click;
             // 
             // txtdentaikhoan
             // 
-            txtdentaikhoan.Location = new Point(329, 185);
-            txtdentaikhoan.Margin = new Padding(4);
+            txtdentaikhoan.Location = new Point(330, 55);
+            txtdentaikhoan.Margin = new Padding(4, 3, 4, 3);
             txtdentaikhoan.Name = "txtdentaikhoan";
             txtdentaikhoan.Size = new Size(204, 31);
             txtdentaikhoan.TabIndex = 2;
-            // 
-            // txtSoTienChuyen
-            // 
-            txtSoTienChuyen.Location = new Point(329, 118);
-            txtSoTienChuyen.Margin = new Padding(4);
-            txtSoTienChuyen.Name = "txtSoTienChuyen";
-            txtSoTienChuyen.Size = new Size(204, 31);
-            txtSoTienChuyen.TabIndex = 2;
-            // 
-            // txtsodu
-            // 
-            txtsodu.Location = new Point(329, 58);
-            txtsodu.Margin = new Padding(4);
-            txtsodu.Name = "txtsodu";
-            txtsodu.Size = new Size(204, 31);
-            txtsodu.TabIndex = 2;
-            // 
-            // label10
-            // 
-            label10.AutoSize = true;
-            label10.Location = new Point(102, 60);
-            label10.Margin = new Padding(4, 0, 4, 0);
-            label10.Name = "label10";
-            label10.Size = new Size(122, 25);
-            label10.TabIndex = 1;
-            label10.Text = "Số dư hiện tại";
+            txtdentaikhoan.TextChanged += btntimkiem_Click;
+            txtdentaikhoan.KeyDown += txtdentaikhoan_KeyDown;
             // 
             // label9
             // 
             label9.AutoSize = true;
-            label9.Location = new Point(102, 189);
+            label9.Location = new Point(102, 60);
             label9.Margin = new Padding(4, 0, 4, 0);
             label9.Name = "label9";
             label9.Size = new Size(122, 25);
@@ -314,31 +326,34 @@
             // label8
             // 
             label8.AutoSize = true;
-            label8.Location = new Point(102, 121);
+            label8.Location = new Point(100, 173);
             label8.Margin = new Padding(4, 0, 4, 0);
             label8.Name = "label8";
             label8.Size = new Size(128, 25);
             label8.TabIndex = 0;
             label8.Text = "Số tiền chuyển";
             // 
-            // txttentaikhoan2
+            // label2
             // 
-            txttentaikhoan2.Location = new Point(181, 57);
-            txttentaikhoan2.Name = "txttentaikhoan2";
-            txttentaikhoan2.Size = new Size(194, 31);
-            txttentaikhoan2.TabIndex = 2;
+            label2.AutoSize = true;
+            label2.Location = new Point(107, 113);
+            label2.Margin = new Padding(4, 0, 4, 0);
+            label2.Name = "label2";
+            label2.Size = new Size(116, 25);
+            label2.TabIndex = 0;
+            label2.Text = "Tên tài khoản";
             // 
             // frmChuyentien
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1365, 644);
+            ClientSize = new Size(1284, 707);
             Controls.Add(groupBox4);
             Controls.Add(label1);
             Controls.Add(groupBox3);
             Controls.Add(groupBox2);
             Controls.Add(groupBox1);
-            Margin = new Padding(4);
+            Margin = new Padding(4, 3, 4, 3);
             Name = "frmChuyentien";
             Text = "frmChuyentien";
             Load += frmChuyentien_Load;
@@ -350,6 +365,7 @@
             groupBox1.PerformLayout();
             groupBox4.ResumeLayout(false);
             groupBox4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)numsotienchuyen).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -369,20 +385,22 @@
         private GroupBox groupBox1;
         private Button btntimkiem;
         private TextBox txttentaikhoan1;
-        private TextBox txtsotaikhoan1;
-        private Label label3;
-        private Label label2;
         private Label label1;
         private GroupBox groupBox4;
         private Label label9;
         private Label label8;
         private Button btnchuyentien;
         private TextBox txtdentaikhoan;
-        private TextBox txtSoTienChuyen;
-        private TextBox txtsodu;
+
         private Label label10;
-        private ComboBox cbtentaikhoan1;
         private ComboBox cbtentaikhoan2;
         private TextBox txttentaikhoan2;
+        private NumericUpDown numsotienchuyen;
+        private TextBox txtSodu;
+        private Label label11;
+        private TextBox txtcmnd;
+        private Button button1;
+        private TextBox txttenTaiKhoanNhan;
+        private Label label2;
     }
 }
