@@ -1,4 +1,5 @@
 using QUANLYNGANHANG;
+<<<<<<< HEAD
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -11,16 +12,21 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
+=======
+using System.Data;
+using System.Data.SqlClient;
+>>>>>>> f0e070af1cb01cbe2b81564d21f179d82a69eae8
 
 namespace quanlynganhang_btn_
 {
     public partial class Form1 : Form
     {
+
+
         public Form1()
         {
             InitializeComponent();
         }
-
         private void frmChuyentien_Click(object sender, EventArgs e)
         {
             frmChuyentien ct = new frmChuyentien();
@@ -31,6 +37,7 @@ namespace quanlynganhang_btn_
         {
             frmTaotk tk = new frmTaotk();
             tk.ShowDialog();
+
         }
 
         private void btnguitien_Click(object sender, EventArgs e)
@@ -61,5 +68,14 @@ namespace quanlynganhang_btn_
         {
 
         }
+<<<<<<< HEAD
+=======
+
+        private void btncapnhatthongtin_Click(object sender, EventArgs e)
+        {
+            frmCapnhat cp=new frmCapnhat();
+            cp.ShowDialog();
+        }
+>>>>>>> f0e070af1cb01cbe2b81564d21f179d82a69eae8
     }
 }

@@ -249,6 +249,7 @@
             Margin = new Padding(4, 4, 4, 4);
             Name = "frmxoataikhoan";
             Text = "frmxoataikhoan";
+            Load += frmxoataikhoan_Load;
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
