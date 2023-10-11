@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HNC\\Downloads\\QLnganhang\\quanlynganhang(btn)\\quanlynganhang(btn).csproj": {}
+    "D:\\QLnganhang\\quanlynganhang(btn)\\quanlynganhang(btn).csproj": {}
   },
   "projects": {
-    "C:\\Users\\HNC\\Downloads\\QLnganhang\\quanlynganhang(btn)\\quanlynganhang(btn).csproj": {
+    "D:\\QLnganhang\\quanlynganhang(btn)\\quanlynganhang(btn).csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HNC\\Downloads\\QLnganhang\\quanlynganhang(btn)\\quanlynganhang(btn).csproj",
+        "projectUniqueName": "D:\\QLnganhang\\quanlynganhang(btn)\\quanlynganhang(btn).csproj",
         "projectName": "quanlynganhang(btn)",
-        "projectPath": "C:\\Users\\HNC\\Downloads\\QLnganhang\\quanlynganhang(btn)\\quanlynganhang(btn).csproj",
-        "packagesPath": "C:\\Users\\HNC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HNC\\Downloads\\QLnganhang\\quanlynganhang(btn)\\obj\\",
+        "projectPath": "D:\\QLnganhang\\quanlynganhang(btn)\\quanlynganhang(btn).csproj",
+        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
+        "outputPath": "D:\\QLnganhang\\quanlynganhang(btn)\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\HNC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -64,7 +64,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

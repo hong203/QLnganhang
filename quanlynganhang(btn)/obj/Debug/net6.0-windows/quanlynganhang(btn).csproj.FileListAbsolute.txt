@@ -60,7 +60,6 @@ D:\QLnganhang\quanlynganhang(btn)\obj\Debug\net6.0-windows\quanlynganhang(btn).p
 D:\QLnganhang\quanlynganhang(btn)\obj\Debug\net6.0-windows\quanlynganhang(btn).genruntimeconfig.cache
 D:\QLnganhang\quanlynganhang(btn)\obj\Debug\net6.0-windows\ref\quanlynganhang(btn).dll
 =======
-<<<<<<< HEAD
 D:\Downloads\QLnganhang\quanlynganhang(btn)\bin\Debug\net6.0-windows\quanlynganhang(btn).exe
 D:\Downloads\QLnganhang\quanlynganhang(btn)\bin\Debug\net6.0-windows\quanlynganhang(btn).deps.json
 D:\Downloads\QLnganhang\quanlynganhang(btn)\bin\Debug\net6.0-windows\quanlynganhang(btn).runtimeconfig.json
@@ -91,7 +90,6 @@ D:\Downloads\QLnganhang\quanlynganhang(btn)\obj\Debug\net6.0-windows\refint\quan
 D:\Downloads\QLnganhang\quanlynganhang(btn)\obj\Debug\net6.0-windows\quanlynganhang(btn).pdb
 D:\Downloads\QLnganhang\quanlynganhang(btn)\obj\Debug\net6.0-windows\quanlynganhang(btn).genruntimeconfig.cache
 D:\Downloads\QLnganhang\quanlynganhang(btn)\obj\Debug\net6.0-windows\ref\quanlynganhang(btn).dll
-=======
 D:\Tài Liệu\.NET\QLnganhang\quanlynganhang(btn)\bin\Debug\net6.0-windows\quanlynganhang(btn).exe
 D:\Tài Liệu\.NET\QLnganhang\quanlynganhang(btn)\bin\Debug\net6.0-windows\quanlynganhang(btn).deps.json
 D:\Tài Liệu\.NET\QLnganhang\quanlynganhang(btn)\bin\Debug\net6.0-windows\quanlynganhang(btn).runtimeconfig.json
@@ -157,3 +155,4 @@ C:\Users\HNC\Downloads\QLnganhang\quanlynganhang(btn)\obj\Debug\net6.0-windows\q
 C:\Users\HNC\Downloads\QLnganhang\quanlynganhang(btn)\obj\Debug\net6.0-windows\quanlynganhang(btn).genruntimeconfig.cache
 C:\Users\HNC\Downloads\QLnganhang\quanlynganhang(btn)\obj\Debug\net6.0-windows\ref\quanlynganhang(btn).dll
 >>>>>>> f0e070af1cb01cbe2b81564d21f179d82a69eae8
+D:\QLnganhang\quanlynganhang(btn)\obj\Debug\net6.0-windows\quanlynganhang_btn_.frmCapnhat.resources

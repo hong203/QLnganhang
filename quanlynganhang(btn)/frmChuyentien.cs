@@ -32,8 +32,7 @@ namespace quanlynganhang_btn_
             dataGridView1.DataSource = dt;
         }
 
-<<<<<<< HEAD
-=======
+
         private void label8_Click(object sender, EventArgs e)
         {
 
@@ -44,7 +43,7 @@ namespace quanlynganhang_btn_
 
         }
 
->>>>>>> f0e070af1cb01cbe2b81564d21f179d82a69eae8
+
         private void frmChuyentien_Load(object sender, EventArgs e)
         {
             connect = new SqlConnection(cnn);
